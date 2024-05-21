@@ -22,6 +22,13 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        SceneManager.LoadScene("Main");
+        if (collision.collider.tag == "Obstacle" || collision.collider.tag == "Wall")
+        {
+            SceneManager.LoadScene("Main");
+        }
+        else if (collision.collider.tag == "Bonus")
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }
