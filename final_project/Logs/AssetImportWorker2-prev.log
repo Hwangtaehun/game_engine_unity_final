@@ -15,7 +15,7 @@ D:/Github/game_engine_unity_final/final_project
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60795
+61070
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ D:/Github/game_engine_unity_final/final_project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33304] Host "[IP] 192.168.45.8 [Port] 0 [Flags] 2 [Guid] 3564414183 [EditorId] 3564414183 [Version] 1048832 [Id] WindowsEditor(7,transferscholarship) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [33304] Host "[IP] 192.168.45.8 [Port] 0 [Flags] 2 [Guid] 3564414183 [EditorId] 3564414183 [Version] 1048832 [Id] WindowsEditor(7,transferscholarship) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1848] Host "[IP] 192.168.45.8 [Port] 0 [Flags] 2 [Guid] 2098152722 [EditorId] 2098152722 [Version] 1048832 [Id] WindowsEditor(7,transferscholarship) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1848] Host "[IP] 192.168.45.8 [Port] 0 [Flags] 2 [Guid] 2098152722 [EditorId] 2098152722 [Version] 1048832 [Id] WindowsEditor(7,transferscholarship) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.13f1 (70197a359f36)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005670 seconds.
-- Loaded All Assemblies, in  0.415 seconds
+Registered in 0.005600 seconds.
+- Loaded All Assemblies, in  0.399 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.303 seconds
-Domain Reload Profiling: 713ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 692ms
+	BeginReloadAssembly (156ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (148ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (134ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (124ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (303ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (299ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (252ms)
+		SetupLoadedEditorAssemblies (248ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (180ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,68 +150,1962 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.772 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+- Loaded All Assemblies, in  3.111 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.515 seconds
-Domain Reload Profiling: 1280ms
-	BeginReloadAssembly (337ms)
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 3695ms
+	BeginReloadAssembly (382ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (35ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (340ms)
-		LoadAssemblies (316ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (2633ms)
+		LoadAssemblies (2608ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (112ms)
-			BuildScriptInfoCaches (15ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (16ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (515ms)
+	FinalizeReload (594ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
+		SetupLoadedEditorAssemblies (390ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3185 unused Assets / (0.9 MB). Loaded Objects now: 3755.
+Memory consumption went from 123.7 MB to 122.8 MB.
+Total: 5.142100 ms (FindLiveObjects: 0.360000 ms CreateObjectMapping: 0.158400 ms MarkObjects: 3.836300 ms  DeleteObjects: 0.786300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 612983.599036 seconds.
+  path: Assets/TemplesKor/Prefabs
+  artifactKey: Guid(fc6d948c000fbe94fb1593907560ac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs using Guid(fc6d948c000fbe94fb1593907560ac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4c1147dfa3b2865e1d28a8cc0541e76') in 0.0140092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040652 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Bang_A.prefab
+  artifactKey: Guid(45d8fb04f5878194a80e616bc36ba5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Bang_A.prefab using Guid(45d8fb04f5878194a80e616bc36ba5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4bc1574dbc50a97f84d22018d1c9a59') in 0.3364441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Dori_B.prefab
+  artifactKey: Guid(48d48742f797ab94fa6d1cadf55b4e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Dori_B.prefab using Guid(48d48742f797ab94fa6d1cadf55b4e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283db6b2da62ee301fb78d206360b3eb') in 0.0289868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Roof_F.prefab
+  artifactKey: Guid(895e5d5648a43704cb7f0500472528e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Roof_F.prefab using Guid(895e5d5648a43704cb7f0500472528e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cebd13d43c2d96e5dad08fd545aedbf4') in 0.0360828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Pillar_E.prefab
+  artifactKey: Guid(915787932bc751f41ab9133489048fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Pillar_E.prefab using Guid(915787932bc751f41ab9133489048fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70fcfef4fdcddfa057b62073249922f3') in 0.0210923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Wall_C.prefab
+  artifactKey: Guid(ff54439ee8c1e5f46bc0df8d457fdf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Wall_C.prefab using Guid(ff54439ee8c1e5f46bc0df8d457fdf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f26813dc97c73665d52cbfdabbfa46fb') in 0.0258869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Stone_A.prefab
+  artifactKey: Guid(73ae1277bde850b48a6ba39b6e455f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Stone_A.prefab using Guid(73ae1277bde850b48a6ba39b6e455f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8526d6a50c094b5b19f4f8620c660ca5') in 0.0188035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Wall_H.prefab
+  artifactKey: Guid(3e808ce1225aa33458a35f05261bac31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Wall_H.prefab using Guid(3e808ce1225aa33458a35f05261bac31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6951de56d233a3899498bc03da5cf26') in 0.0239169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Wall_L.prefab
+  artifactKey: Guid(ed49396e55beec84aaa1261f3f5c550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Geumsan_Mi_Wall_L.prefab using Guid(ed49396e55beec84aaa1261f3f5c550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '189d627c96c3ec0f91b9d46d9c0c3121') in 0.0207266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959205 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Stone_F.prefab
+  artifactKey: Guid(cb6f7f64ba1ef2245b9e95d9c0157c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Stone_F.prefab using Guid(cb6f7f64ba1ef2245b9e95d9c0157c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83aa3f407fe8102adf3204e6ab1e93d3') in 0.0193552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Stone_L.prefab
+  artifactKey: Guid(2ab5e46c10e0a834d939e3221d31775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Stone_L.prefab using Guid(2ab5e46c10e0a834d939e3221d31775f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec180ead3d8eae58bce32023cdcc2917') in 0.020211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Stone_P.prefab
+  artifactKey: Guid(396e56227a758f244bbebbd361c7d220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Stone_P.prefab using Guid(396e56227a758f244bbebbd361c7d220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e6264bf606b47c496ed713e206ac53d') in 0.0238251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001090 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Wall_C.prefab
+  artifactKey: Guid(3857bd0de09ddd74fab305906e5fdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_K_Kirim_Dae_Wall_C.prefab using Guid(3857bd0de09ddd74fab305906e5fdb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be437a5c327a936302676233eb633c9b') in 0.0248882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_SC_Seonamsa_Sajeokbi.prefab
+  artifactKey: Guid(71672e7a2afc3594cb2b3df239656d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_SC_Seonamsa_Sajeokbi.prefab using Guid(71672e7a2afc3594cb2b3df239656d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dc6d62e9827f25a4e4894707fa01896') in 0.0266873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Song_Jong_Kidan.prefab
+  artifactKey: Guid(d8179c192a9f9cc409170cbff06fed33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Song_Jong_Kidan.prefab using Guid(d8179c192a9f9cc409170cbff06fed33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f021931fd7c8632bfc665a530dbdb4bb') in 0.0225002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Song_Jong_Gongpo_B.prefab
+  artifactKey: Guid(cf42559df0d09034da618d110f8d83e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Song_Jong_Gongpo_B.prefab using Guid(cf42559df0d09034da618d110f8d83e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61a9793d121111967823929b021dca83') in 0.0208441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_SC_Seonamsa_North_Stupa.prefab
+  artifactKey: Guid(de2b606400bdf2d4f832d4795ae769b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_SC_Seonamsa_North_Stupa.prefab using Guid(de2b606400bdf2d4f832d4795ae769b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c72bdd5b366ff78a1b9ff17df996defc') in 0.0301717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Song_Jong_Dori.prefab
+  artifactKey: Guid(16309f7a9ad268e4e831eb8949c0258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Song_Jong_Dori.prefab using Guid(16309f7a9ad268e4e831eb8949c0258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '385eb68d3bb2dae52001de79799a6713') in 0.0257653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Song_Jong_Rail_A.prefab
+  artifactKey: Guid(4190189816d904545a372095294c0dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Song_Jong_Rail_A.prefab using Guid(4190189816d904545a372095294c0dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e43beec9ba49cb207a3a6dc54cd8165d') in 0.0206046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.608135 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Song_Jong_Rail_B.prefab
+  artifactKey: Guid(b319a91880b41b444b75133b90600550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Song_Jong_Rail_B.prefab using Guid(b319a91880b41b444b75133b90600550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '773ea58f260c9ed9062df782c124538a') in 0.0443343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Gongpo_B.prefab
+  artifactKey: Guid(08a843b821d8a6d4a86f0b563f232456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Gongpo_B.prefab using Guid(08a843b821d8a6d4a86f0b563f232456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5774ba620a72a5056b777d97abfb827e') in 0.0232311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Song_Jong_Stair.prefab
+  artifactKey: Guid(bb58134f1b8425c4a89f1d456718f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Song_Jong_Stair.prefab using Guid(bb58134f1b8425c4a89f1d456718f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379dbf2acb1e513f4ebb912089fe7d35') in 0.0588485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Bul_Stone_D.prefab
+  artifactKey: Guid(d0ee32f7db13b1d42a345b65ccd0ab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Bul_Stone_D.prefab using Guid(d0ee32f7db13b1d42a345b65ccd0ab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1de8eafd1a317bbe66f0e2d585376e18') in 0.0569698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Step.prefab
+  artifactKey: Guid(66c4405b9876866459ac0d2bcf3aa93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Step.prefab using Guid(66c4405b9876866459ac0d2bcf3aa93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46287da2504eb235db370604e5538582') in 0.0645575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Bul_Roof.prefab
+  artifactKey: Guid(630251c27416d2543b9fa3caf26d3942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Bul_Roof.prefab using Guid(630251c27416d2543b9fa3caf26d3942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e08a4887f7bc66457bb274f274ed47e') in 0.0277449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Song_Jong_Sign_A.prefab
+  artifactKey: Guid(844ef253fe812cc4cbf0e4371d2ecd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Song_Jong_Sign_A.prefab using Guid(844ef253fe812cc4cbf0e4371d2ecd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1330194fac4f12448c92c6d99d7dab9') in 0.017245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Jang.prefab
+  artifactKey: Guid(da63e280579430a4fb566792aeea0f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Jang.prefab using Guid(da63e280579430a4fb566792aeea0f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f496b9d52df2f90629a5876c4bf1c0e') in 0.0236319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Bul_Stone_A.prefab
+  artifactKey: Guid(46efa975a2bb20a4b8fbfa689c1d97f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Bul_Stone_A.prefab using Guid(46efa975a2bb20a4b8fbfa689c1d97f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2d2bb08c76fd672c55c24fb58e1790c') in 0.0155056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Sign_B.prefab
+  artifactKey: Guid(a71398edb28e9ec4c910cfa1f0b90bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Sign_B.prefab using Guid(a71398edb28e9ec4c910cfa1f0b90bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa68534c28bad5b672c14cefbb83fb55') in 0.0201146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Sign_C.prefab
+  artifactKey: Guid(243a67a607cc4ac469a632d4472216ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Sign_C.prefab using Guid(243a67a607cc4ac469a632d4472216ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2354881d64b7e3664c268317a82725e3') in 0.0195064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Wall_A.prefab
+  artifactKey: Guid(46e364f99957ef84b85569436f7e9ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Wall_A.prefab using Guid(46e364f99957ef84b85569436f7e9ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0313cb5b0d6764cb8b9ed4b207fbb2d1') in 0.0238283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Dae_Gongpo_B.prefab
+  artifactKey: Guid(5c0d83251665aa949ae15ce00907948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Dae_Gongpo_B.prefab using Guid(5c0d83251665aa949ae15ce00907948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba90f24ed0f28905713f10aedf93e218') in 0.0216621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Dae_Wall_A.prefab
+  artifactKey: Guid(77f32d2807b38594a9cc737a2594ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Dae_Wall_A.prefab using Guid(77f32d2807b38594a9cc737a2594ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f73957806c11ed929ee237d2f4e4813') in 0.0204137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Dae_Stone_K.prefab
+  artifactKey: Guid(afbb7db53b94a394b9c06c79fe1e1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Dae_Stone_K.prefab using Guid(afbb7db53b94a394b9c06c79fe1e1924) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07b8a3d2f2bafd03117282a846f66b2b') in 0.0175244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Dae_Stone_L.prefab
+  artifactKey: Guid(5c50fe9a45a61a04d95f4010736a92a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Dae_Stone_L.prefab using Guid(5c50fe9a45a61a04d95f4010736a92a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15700e843ccaa9f450dce88c9b8665a3') in 0.0193032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Dae_Step.prefab
+  artifactKey: Guid(f4cb73171a3d14e479f208d2d1da6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Dae_Step.prefab using Guid(f4cb73171a3d14e479f208d2d1da6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba8d2eeab007dd5f0982ffb5b3b82ebc') in 0.0185888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Bul_Stone_B.prefab
+  artifactKey: Guid(5c6f42d84acb47643be7f0e7ff824d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Bul_Stone_B.prefab using Guid(5c6f42d84acb47643be7f0e7ff824d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ca3a6fc0ebcaeb21f301d6cc841429e') in 0.0175308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Dae_Roof.prefab
+  artifactKey: Guid(b0c6068269b02e648a7376b64d90d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Dae_Roof.prefab using Guid(b0c6068269b02e648a7376b64d90d789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bca13e1a60e245458109fde48f500d4') in 0.0251826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Kidan.prefab
+  artifactKey: Guid(e0afd514213288d49a2acc98cd30039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Ssang_Dae_Kidan.prefab using Guid(e0afd514213288d49a2acc98cd30039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42ea2b81348ef0a35334828d7fd56404') in 0.0228806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.553967 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Dae_Wall_B.prefab
+  artifactKey: Guid(c168011bcf52ff64f960138b090affb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Dae_Wall_B.prefab using Guid(c168011bcf52ff64f960138b090affb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5b6aaed11ff5a7be22f387158dcc62f') in 0.0391218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Gate_Gongpo_A.prefab
+  artifactKey: Guid(e9ee520745afcc949a19615ae45705f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Gate_Gongpo_A.prefab using Guid(e9ee520745afcc949a19615ae45705f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '615d2d31501cb067ce87257a7015d145') in 0.0504126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Gate_Gongpo_B.prefab
+  artifactKey: Guid(73cf6beb36d1649418cc7c0257102759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Gate_Gongpo_B.prefab using Guid(73cf6beb36d1649418cc7c0257102759) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54331775e896579f61af1c83f759e517') in 0.0337289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099053 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Gate_Sign_A.prefab
+  artifactKey: Guid(96309d4d5f4245c468f26bc6d58f941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Gate_Sign_A.prefab using Guid(96309d4d5f4245c468f26bc6d58f941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6ab3b2ee6086ac6d33d9fdbc2ed6043') in 0.0155327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Kak_Gonpo_B.prefab
+  artifactKey: Guid(85c5898b91356824d819f354f9de7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Kak_Gonpo_B.prefab using Guid(85c5898b91356824d819f354f9de7ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba408af2547be4c25bd31ffd57c06816') in 0.0194053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Kak_Step.prefab
+  artifactKey: Guid(2151b257c176b9143bb73e5cb07afd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Kak_Step.prefab using Guid(2151b257c176b9143bb73e5cb07afd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24aec4f2a0b3a928ccef32b0b7a29b6b') in 0.0217543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Pal_Pillar_A.prefab
+  artifactKey: Guid(3ac5762fbd2fbda4abb574f21f3bca93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Pal_Pillar_A.prefab using Guid(3ac5762fbd2fbda4abb574f21f3bca93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '678b04ab8a8b55cd316d6a8e22e5e31e') in 0.0222958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Pal_ex.fbx
+  artifactKey: Guid(17bf0bfbd8061bd4a9915c1719b619c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Pal_ex.fbx using Guid(17bf0bfbd8061bd4a9915c1719b619c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '497bd11f7082f83134e7b2b31e392283') in 0.2324203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Kak_Gonpo_A.prefab
+  artifactKey: Guid(74dd11618597b8a4c95acad1ac75d737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Kak_Gonpo_A.prefab using Guid(74dd11618597b8a4c95acad1ac75d737) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c1b752c29534c92da8f366a6725948a') in 0.0273667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Pal_Gongpo_A.prefab
+  artifactKey: Guid(e8c960351d7afd04fb2043305bab6a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Pal_Gongpo_A.prefab using Guid(e8c960351d7afd04fb2043305bab6a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '615000543056727295800f99057f0ba0') in 0.0245937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Toilet_stone.prefab
+  artifactKey: Guid(9c0de9b634f73c5419ee4c656992d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Toilet_stone.prefab using Guid(9c0de9b634f73c5419ee4c656992d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08512fdc636b60b6ab5d0d44053e4b95') in 0.0175935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_toillet_Kidan_A.prefab
+  artifactKey: Guid(a7e6a0166decdb3409ca79be6d3bd9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_toillet_Kidan_A.prefab using Guid(a7e6a0166decdb3409ca79be6d3bd9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8385492206cde44de2ccb8aa2c581b38') in 0.0222654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_D.prefab
+  artifactKey: Guid(64c77217998f0c44f971249135f3dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_D.prefab using Guid(64c77217998f0c44f971249135f3dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c7ac6296d3446d5e3e00679004781f5') in 0.0194131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_B.prefab
+  artifactKey: Guid(44aa444679098bd4fb4fe0fbde2ffc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_B.prefab using Guid(44aa444679098bd4fb4fe0fbde2ffc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7af6c6d0dcde700edab25272a93ee2d9') in 0.0197899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Toilet_Wall_A.prefab
+  artifactKey: Guid(6ff2f5ac3f25fc8478e1e60a9d18b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Toilet_Wall_A.prefab using Guid(6ff2f5ac3f25fc8478e1e60a9d18b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6cff5ca89e512a2bc35e456aed3115c') in 0.0165237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_A.prefab
+  artifactKey: Guid(364fcf8e9638f2849b91dd011ed98a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_A.prefab using Guid(364fcf8e9638f2849b91dd011ed98a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b2ce32db27909a93c6beb53a382c55d') in 0.0195932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Toilet_Bang_C.prefab
+  artifactKey: Guid(7d98487c1ef52dc488b465dd9d336abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Toilet_Bang_C.prefab using Guid(7d98487c1ef52dc488b465dd9d336abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '265484c64f70ab9e35b644cc57f248d2') in 0.0230634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_C.prefab
+  artifactKey: Guid(252f53f9be195e44c9502edb27fb78e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_C.prefab using Guid(252f53f9be195e44c9502edb27fb78e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7d3b61ae41346b57ce67e7b4d25f243') in 0.0165762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Toilet_Wall_D.prefab
+  artifactKey: Guid(2015ba4eb798e86408ccc0c514654d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Toilet_Wall_D.prefab using Guid(2015ba4eb798e86408ccc0c514654d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a89a0fc8a6825ad24c68552210d5258c') in 0.0155436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.416966 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_E.prefab
+  artifactKey: Guid(12bcce4468445d44295f0a79e7dbae10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Won_Jang_E.prefab using Guid(12bcce4468445d44295f0a79e7dbae10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ba0208ac67c45c1721a315f61966d93') in 0.0192357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Won_Wall_D.prefab
+  artifactKey: Guid(525f2edd9e25fe14b8c3e901909fa4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Won_Wall_D.prefab using Guid(525f2edd9e25fe14b8c3e901909fa4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9143706d9a3dbbc793029c529a03482b') in 0.0283027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_Sun_Won_Wall_A.prefab
+  artifactKey: Guid(cc3437fbd4ecdc844b554f62d74e7cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_Sun_Won_Wall_A.prefab using Guid(cc3437fbd4ecdc844b554f62d74e7cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3038fad4514c5ee130e2e05dda20e83') in 0.0270957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TemplesKor/Prefabs/SM_WJ_Songgwangsa_Bell_Tower_Woodenfish.prefab
+  artifactKey: Guid(1ed8ea3647a6b654c8f8a808ea595a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Prefabs/SM_WJ_Songgwangsa_Bell_Tower_Woodenfish.prefab using Guid(1ed8ea3647a6b654c8f8a808ea595a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '901639bcae2e1d059574a11288d9db4a') in 0.0188369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.246567 seconds.
+  path: Assets/TemplesKor/Scenes
+  artifactKey: Guid(f0b9f3ceddfe7dc4b88b97c01c19aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Scenes using Guid(f0b9f3ceddfe7dc4b88b97c01c19aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb7fc6110cf5cd8d4f2976d0595fc16a') in 0.0007599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.529899 seconds.
+  path: Assets/TemplesKor/Scenes/Overview.unity
+  artifactKey: Guid(752da5a6dbf0abc42b91bb2c3154a0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Scenes/Overview.unity using Guid(752da5a6dbf0abc42b91bb2c3154a0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd28081b622822fbed6c963401e13a305') in 0.0007064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.537736 seconds.
+  path: Assets/Prefab/apple.fbx
+  artifactKey: Guid(d71ce9254e0e06a4da6613970be41014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/apple.fbx using Guid(d71ce9254e0e06a4da6613970be41014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1699f85cc62bd2a587e470a8e0ee4440') in 0.0665124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.053599 seconds.
+  path: Assets/Mesh
+  artifactKey: Guid(560da0b512fd39440a31941c2c559f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh using Guid(560da0b512fd39440a31941c2c559f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21b708c2a1d44cc145434a822b9c7492') in 0.0007119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.663839 seconds.
+  path: Assets/Sound
+  artifactKey: Guid(e4286b0a2e6a1274c94502b53bb86f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound using Guid(e4286b0a2e6a1274c94502b53bb86f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0f109d753073377cdfe0237acdb9d20') in 0.0006819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.676838 seconds.
+  path: Assets/TemplesKor/Meshes/SM_WJ_Songgwangsa_Bell_Tower_Woodenfish.fbx
+  artifactKey: Guid(3624668163d34a547ac9eeec38053dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_WJ_Songgwangsa_Bell_Tower_Woodenfish.fbx using Guid(3624668163d34a547ac9eeec38053dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bfc6bf955a701f6bb1fabe602ae7299') in 0.1652332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062174 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Wall_D.fbx
+  artifactKey: Guid(d1a1f0af1df17c24db415b5e429385af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Wall_D.fbx using Guid(d1a1f0af1df17c24db415b5e429385af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed3da8bf3ace8401a595ad58691f531b') in 0.0249595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013193 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Wall_B.fbx
+  artifactKey: Guid(9532c69dcb113a74e8b00cba43fc5b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Wall_B.fbx using Guid(9532c69dcb113a74e8b00cba43fc5b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08d9e3f9f881cb0e496c2858d985c65f') in 0.0237258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Roof.fbx
+  artifactKey: Guid(f02bacdaef9a05a4da9123c5bce17bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Roof.fbx using Guid(f02bacdaef9a05a4da9123c5bce17bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '603d1ff1d9dd8c3218866b54c15d9849') in 0.0351593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Pillar_B.fbx
+  artifactKey: Guid(b3d610a4b1124bd44bf440822a79e1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Pillar_B.fbx using Guid(b3d610a4b1124bd44bf440822a79e1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce0ad2dd0b0fcd69ae6de6e786c3963b') in 0.0297326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106132 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Jang_E.fbx
+  artifactKey: Guid(bd4b056a986df494e8651037b4409b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Jang_E.fbx using Guid(bd4b056a986df494e8651037b4409b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '730154d3e802dcbb7de0e8a3406782fd') in 0.0239122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017089 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Jang_C.fbx
+  artifactKey: Guid(6f379e01ab10ff446bf1db5efcb1612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Jang_C.fbx using Guid(6f379e01ab10ff446bf1db5efcb1612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '556423d78b03555f4c1cf99e8f19e01f') in 0.0212426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Jang_B.fbx
+  artifactKey: Guid(6bea745a65835914795199af8d085d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Jang_B.fbx using Guid(6bea745a65835914795199af8d085d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9a6546c15cfdec3019aac5823d98497') in 0.0230687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191673 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Gonpo_C.fbx
+  artifactKey: Guid(f72ef101364f8dd478c84eb59561e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Gonpo_C.fbx using Guid(f72ef101364f8dd478c84eb59561e3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39a44ddc3760063e63e9ec57d1fa1faf') in 0.0221816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Gonpo_A.fbx
+  artifactKey: Guid(64698cadaf235cc418d8e40984aab7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Gonpo_A.fbx using Guid(64698cadaf235cc418d8e40984aab7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dabd5edcf8aa4ac5a475a9209b16857') in 0.0208565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011000 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_Dori_B.fbx
+  artifactKey: Guid(fb2552603ca6bf34e83e6f1f14bd85cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_Dori_B.fbx using Guid(fb2552603ca6bf34e83e6f1f14bd85cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '014db151f2edda66b2b2f9612702cf26') in 0.0248949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.669252 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Ssang_Dae_Wall_B.fbx
+  artifactKey: Guid(cb51958ade899be4eb6006766517c3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Ssang_Dae_Wall_B.fbx using Guid(cb51958ade899be4eb6006766517c3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '722a5d4e29fb46c57a0f9196f1360960') in 0.0349807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018059 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Gong.fbx
+  artifactKey: Guid(8ff0c0152b8c6d54786b5fa030589d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Gong.fbx using Guid(8ff0c0152b8c6d54786b5fa030589d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c319058e712e62ccebc9968c1286de7') in 0.0424488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.202159 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Gongpo_B.fbx
+  artifactKey: Guid(98758b7feda57d94196fc689546927ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Gongpo_B.fbx using Guid(98758b7feda57d94196fc689546927ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '440e1ce9fb44a86822957161b5603541') in 0.0379341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008093 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Roof.fbx
+  artifactKey: Guid(7d3393b2d8e8c6249980c270ed9ec698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Roof.fbx using Guid(7d3393b2d8e8c6249980c270ed9ec698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1437b546e049a02c8fd84b1228c2c405') in 0.0527031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Sign.fbx
+  artifactKey: Guid(61747d8677cd32f419465a8438a5f23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Sign.fbx using Guid(61747d8677cd32f419465a8438a5f23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '124f7ff6b0e3856f4df4466766abedf2') in 0.0192186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_A.fbx
+  artifactKey: Guid(16fddac8fd5ef5f43b3fa83983dc9a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_A.fbx using Guid(16fddac8fd5ef5f43b3fa83983dc9a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cabb8bc61127bcd59632f44c9735548e') in 0.0173825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139898 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_C.fbx
+  artifactKey: Guid(e45c9405a45c15a4386b162de634d549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_C.fbx using Guid(e45c9405a45c15a4386b162de634d549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '729d818ef5ea87b987b490a7d0cfe91c') in 0.0204743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013775 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_E.fbx
+  artifactKey: Guid(e147fc3913ef005479fe2cc7eff8fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_E.fbx using Guid(e147fc3913ef005479fe2cc7eff8fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e72368316fd765c945fd319931f1e2e1') in 0.0187775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_H.fbx
+  artifactKey: Guid(f9356b26e0b2100458c73d3121973b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_H.fbx using Guid(f9356b26e0b2100458c73d3121973b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daf7d0809c96b16bdada2c9157dedb22') in 0.0191173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_J.fbx
+  artifactKey: Guid(8045209aee5367c4dbb606486036847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_J.fbx using Guid(8045209aee5367c4dbb606486036847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cd9b743d9f91e4e0f6ddae917068a88') in 0.0206121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192728 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_K.fbx
+  artifactKey: Guid(ffddb6e39f2c2a049b8c1a2a1d6ca75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Stone_K.fbx using Guid(ffddb6e39f2c2a049b8c1a2a1d6ca75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f372e620f679047c2f1c8e677fbb59c') in 0.0210349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Wall_B.fbx
+  artifactKey: Guid(11f14a854a077c34681c56c8a74edc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Wall_B.fbx using Guid(11f14a854a077c34681c56c8a74edc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f00e6b974ae9f1e3f7c069861684a3db') in 0.0219561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Bul_Wall_D.fbx
+  artifactKey: Guid(32ea2d416e3a1b5478fc18ca1d49e045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Bul_Wall_D.fbx using Guid(32ea2d416e3a1b5478fc18ca1d49e045) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9558745214dfd9796c3281ff9af77993') in 0.0221249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222541 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Bang_A.fbx
+  artifactKey: Guid(b0e1ea11c34e76946a7e41f97762fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Bang_A.fbx using Guid(b0e1ea11c34e76946a7e41f97762fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e317ece71d113852c261726952e24392') in 0.0208814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_B.fbx
+  artifactKey: Guid(4583b0429406a004fb4fde2efb3a2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_B.fbx using Guid(4583b0429406a004fb4fde2efb3a2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38bf40c4322404a667981f5703e9214c') in 0.0227038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Gate_Bang.fbx
+  artifactKey: Guid(ef874df7dcebc77479cbf4c55e2dc666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Gate_Bang.fbx using Guid(ef874df7dcebc77479cbf4c55e2dc666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbc0d3afb88755085e71d921504ed43c') in 0.0196295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197669 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Gate_Dori_B.fbx
+  artifactKey: Guid(ce7bd79a2c849da4e95cff36c4ef8b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Gate_Dori_B.fbx using Guid(ce7bd79a2c849da4e95cff36c4ef8b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1acda1fd1b25175536ca7f7b30c20699') in 0.0233042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019194 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Gate_Roof_B.fbx
+  artifactKey: Guid(26c65f74299cbd64b87ad0727611034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Gate_Roof_B.fbx using Guid(26c65f74299cbd64b87ad0727611034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e52b316006f3c08f0334047ad41a994d') in 0.0212731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Gonpo_B.fbx
+  artifactKey: Guid(2c0b96f45555c0d408e1c8effcaf9cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Gonpo_B.fbx using Guid(2c0b96f45555c0d408e1c8effcaf9cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69900e138360464ec74c2bff7eda4f76') in 0.0211789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Sign_B.fbx
+  artifactKey: Guid(c5c44dedc8895c0428cbebf79978b884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Sign_B.fbx using Guid(c5c44dedc8895c0428cbebf79978b884) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '878f13f9d2dc86eedd829b0c760485bd') in 0.0218642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.175092 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Wall_B.fbx
+  artifactKey: Guid(d49a845d4dcc2ae48ad48404f1a2f576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Wall_B.fbx using Guid(d49a845d4dcc2ae48ad48404f1a2f576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67c06f5dc38d0152159050a686daf209') in 0.0215947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028111 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Bang_B.fbx
+  artifactKey: Guid(8199d3c53e6395c4ab784cbb0acba163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Bang_B.fbx using Guid(8199d3c53e6395c4ab784cbb0acba163) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2e607265f359cc06ac06c0fd6ca10b1') in 0.0222586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Pillar_B.fbx
+  artifactKey: Guid(044bbd1e60e6ea846884c817698c94b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Pillar_B.fbx using Guid(044bbd1e60e6ea846884c817698c94b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cead0338f41e134c61ef4d13a6b5c5e') in 0.0199552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Roof_B.fbx
+  artifactKey: Guid(f8a82d457b862dd4cbb91cefa69ecd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Roof_B.fbx using Guid(f8a82d457b862dd4cbb91cefa69ecd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '151fe89e5a3cb8efb3b7485fcf2a0ddb') in 0.0200944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.183874 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Bang_A.fbx
+  artifactKey: Guid(f67e81d747953c049b946b3d453ad767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Bang_A.fbx using Guid(f67e81d747953c049b946b3d453ad767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48188645a563307075f1c34a29dd9cc2') in 0.0214992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Pillar_B.fbx
+  artifactKey: Guid(6e6289cb8ba3f9b4d848ee31b348f42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Pillar_B.fbx using Guid(6e6289cb8ba3f9b4d848ee31b348f42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b4e5f91fedaea0bc64a446fa710c23c') in 0.0207046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013827 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_B.fbx
+  artifactKey: Guid(ce1089489cf98f0488fc13d5a2f5ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_B.fbx using Guid(ce1089489cf98f0488fc13d5a2f5ddbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd93db8220d1274b3f9a381374b9c03b9') in 0.0223184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.631 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1208ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (272ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3184 unused Assets / (0.9 MB). Loaded Objects now: 3753.
-Memory consumption went from 119.0 MB to 118.1 MB.
-Total: 5.574300 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.224000 ms MarkObjects: 4.147100 ms  DeleteObjects: 0.796500 ms)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3183 unused Assets / (1.0 MB). Loaded Objects now: 3800.
+Memory consumption went from 121.9 MB to 120.9 MB.
+Total: 6.227800 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.257900 ms MarkObjects: 4.387000 ms  DeleteObjects: 1.164100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 142.303686 seconds.
+  path: Assets/Prefab/Bullet.prefab
+  artifactKey: Guid(a471a0b848bf4724d9a694fcef2d9e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bullet.prefab using Guid(a471a0b848bf4724d9a694fcef2d9e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '781adb0d269c8e1a440ff983cb72a309') in 0.110713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
 
 ========================================================================
 Received Import Request.
-  Time since last request: 611037.503016 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff2a00d5caf121d3244dea7f36f35775') in 0.0417715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 92.298863 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21700e7fe303ef599c5215d2c9a95dae') in 0.0010712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.025982 seconds.
-  path: Assets/TextMesh Pro/Fonts/Maplestory Bold 1.ttf
-  artifactKey: Guid(be18db1a0365c484c8d4931906dd95a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/Maplestory Bold 1.ttf using Guid(be18db1a0365c484c8d4931906dd95a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e60fbe8a375922362e673763c30304a0') in 0.0988124 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 8.058864 seconds.
+  path: Assets/Prefab/Bonus.prefab
+  artifactKey: Guid(fd0e2aaeecfd3e54fbf6c70472cad009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bonus.prefab using Guid(fd0e2aaeecfd3e54fbf6c70472cad009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '769f40ca5ada7fb504bf6bfd3716c5f0') in 0.0130915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.776924 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Won_ceiling.fbx
+  artifactKey: Guid(2f7bc3ffafe3bf54a80733929c57d095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Won_ceiling.fbx using Guid(2f7bc3ffafe3bf54a80733929c57d095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0675e325f6774e0c4a52aab4ddb5e5f5') in 0.0472396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018092 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_toillet_Kidan_A.fbx
+  artifactKey: Guid(3fe6981693bd7fc4f88fd88580cf57c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_toillet_Kidan_A.fbx using Guid(3fe6981693bd7fc4f88fd88580cf57c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c393ae4e8092dd4345fc4be7890d305') in 0.0286094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144092 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_K.fbx
+  artifactKey: Guid(dd198112aa03df94eb42c818b6adc56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_K.fbx using Guid(dd198112aa03df94eb42c818b6adc56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ff5e82d92456b131512bd3ef673ee75') in 0.029844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_J.fbx
+  artifactKey: Guid(c6bb01ba43415b64ba78fa5ea983ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_J.fbx using Guid(c6bb01ba43415b64ba78fa5ea983ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faf118845436b4e47426e1ac1f2fa346') in 0.052279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_G.fbx
+  artifactKey: Guid(e9b8958a6d0d4a14ca9f8d4076bafd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_G.fbx using Guid(e9b8958a6d0d4a14ca9f8d4076bafd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92bcacd72397e5ec1942d3e464e648c5') in 0.0327562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122024 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_E.fbx
+  artifactKey: Guid(ba8941e28c3fff94187de4561fb633c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_E.fbx using Guid(ba8941e28c3fff94187de4561fb633c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8e6348ba71a6706a1e879daaacb706e') in 0.0216343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_D.fbx
+  artifactKey: Guid(a23dc6f68e50b484ab676d0a3220a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Wall_D.fbx using Guid(a23dc6f68e50b484ab676d0a3220a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fd1d9cc7113868474cb04bb2d8b0189') in 0.0209271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.224485 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Toilet_Roof.fbx
+  artifactKey: Guid(919b432d89c9bbd41b0d1c267a69c2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Toilet_Roof.fbx using Guid(919b432d89c9bbd41b0d1c267a69c2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eddb1c57c5266a15f6af7f7dface06f') in 0.0230759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305998 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Wall_F.fbx
+  artifactKey: Guid(a6f8842095e65e94c829962726fc111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Wall_F.fbx using Guid(a6f8842095e65e94c829962726fc111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7558a6567edf8b0f3af3c850534207d6') in 0.0213839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Wall_E.fbx
+  artifactKey: Guid(aa660250a095114478f8fbf3d49e3b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Wall_E.fbx using Guid(aa660250a095114478f8fbf3d49e3b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54c6c61dd173c9a7dbc99b9824e5bd6a') in 0.0204951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030023 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Wall_C.fbx
+  artifactKey: Guid(9adb557846b2f0b409c3f6c8caf72c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Wall_C.fbx using Guid(9adb557846b2f0b409c3f6c8caf72c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8815dc40fcaca91c101a5b8fd7c3ea81') in 0.0193923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145257 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_P.fbx
+  artifactKey: Guid(730bbfb9d66e7a14280a8dbea3c143c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_P.fbx using Guid(730bbfb9d66e7a14280a8dbea3c143c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2593ad0d5616116e63ab99e8e43e7b5e') in 0.0207188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020275 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_N.fbx
+  artifactKey: Guid(51a0374adaacef74d8254efc399e034f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_N.fbx using Guid(51a0374adaacef74d8254efc399e034f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99d964ac4922abba4c08e1da96ff7ea0') in 0.0196187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_L.fbx
+  artifactKey: Guid(50ed9ca7059b74c438472392de136347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_L.fbx using Guid(50ed9ca7059b74c438472392de136347) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec73a43b3e5b9c24ef2a0dfe0dc1812c') in 0.019613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015992 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_J.fbx
+  artifactKey: Guid(6ba50cb5d0cb19847a4ffbbaa6a91cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_J.fbx using Guid(6ba50cb5d0cb19847a4ffbbaa6a91cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9db9482d5871e5ba9a4aaca65632d701') in 0.0191468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140879 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_H.fbx
+  artifactKey: Guid(afb24c4e4810fbf4a90e73d8e8900b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_H.fbx using Guid(afb24c4e4810fbf4a90e73d8e8900b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acf0d99c9b925c029b05885f5d2bd471') in 0.0207686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_G.fbx
+  artifactKey: Guid(6af392c56acfa054a974b2cb0460733d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_G.fbx using Guid(6af392c56acfa054a974b2cb0460733d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32a1e8289fa52b8bca58028b3f3dd037') in 0.0228087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012101 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_D.fbx
+  artifactKey: Guid(9f4b689103ec1c74ba48ecce00918e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_D.fbx using Guid(9f4b689103ec1c74ba48ecce00918e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d914f98def36ebe7a617fb14d10286') in 0.0198849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017276 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_C.fbx
+  artifactKey: Guid(4018e288285af6642bee5fecb168eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_C.fbx using Guid(4018e288285af6642bee5fecb168eb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bbad1b7ab36b7d36942b55a5be654b3') in 0.0179637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.303247 seconds.
+  path: Assets/Prefab/Obstacle.prefab
+  artifactKey: Guid(4f7dcbd70d9d0274687edd6d807fc036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Obstacle.prefab using Guid(4f7dcbd70d9d0274687edd6d807fc036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '719bff06feed0eb90df443a381aa251e') in 0.0157346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.636717 seconds.
+  path: Assets/Prefab/Obstacle.prefab
+  artifactKey: Guid(4f7dcbd70d9d0274687edd6d807fc036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Obstacle.prefab using Guid(4f7dcbd70d9d0274687edd6d807fc036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c831a4d1edd70002e233b90c4ba0b226') in 0.0107307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.632 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1225ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3184 unused Assets / (0.9 MB). Loaded Objects now: 3802.
+Memory consumption went from 123.9 MB to 123.1 MB.
+Total: 6.108000 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.407500 ms MarkObjects: 4.369700 ms  DeleteObjects: 0.913800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.648 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1243ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (105ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (387ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3183 unused Assets / (0.9 MB). Loaded Objects now: 3802.
+Memory consumption went from 125.9 MB to 125.0 MB.
+Total: 6.597800 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.224000 ms MarkObjects: 5.038200 ms  DeleteObjects: 0.993000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 527.125962 seconds.
+  path: Assets/Prefab/Obstacle.prefab
+  artifactKey: Guid(4f7dcbd70d9d0274687edd6d807fc036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Obstacle.prefab using Guid(4f7dcbd70d9d0274687edd6d807fc036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1377924f4b2257905a9bbaee43433fd') in 0.0927434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.297901 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Ssang_Dae_Sign_D.fbx
+  artifactKey: Guid(8cf50ea17c8cc18459733e399053f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Ssang_Dae_Sign_D.fbx using Guid(8cf50ea17c8cc18459733e399053f237) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66d08071a6c7a03d3365c0a14ec9432a') in 0.0513441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Ssang_Dae_Wall_C.fbx
+  artifactKey: Guid(4c45f958d702030439719a36ba1b6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Ssang_Dae_Wall_C.fbx using Guid(4c45f958d702030439719a36ba1b6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '326e60b011706e1e9ecbb5c8340314ae') in 0.0269369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Ssang_Dae_Wall_E.fbx
+  artifactKey: Guid(687c8c96bc97ccd4483b1d752c4bddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Ssang_Dae_Wall_E.fbx using Guid(687c8c96bc97ccd4483b1d752c4bddda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48e5601b4b4ebd71eefa17b8ed05a419') in 0.0294745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Jang.fbx
+  artifactKey: Guid(73d0b318fa2cd464a8ddd4b165ab54a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Jang.fbx using Guid(73d0b318fa2cd464a8ddd4b165ab54a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c467b85e2ed0319857acca9c6670050f') in 0.0570456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Head.fbx
+  artifactKey: Guid(32417309764f3cf4b92ae3b66b2ea0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Head.fbx using Guid(32417309764f3cf4b92ae3b66b2ea0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cb8f34a05167086b9319a27d91e89d5') in 0.0456146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_C.fbx
+  artifactKey: Guid(3f369b8a6e57823488dfdd6846321ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_C.fbx using Guid(3f369b8a6e57823488dfdd6846321ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '496d5935e0c2c92c22a33d1cdb87bea9') in 0.0706737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Pillar.fbx
+  artifactKey: Guid(1fb79ada319137d42aaacf3c6e6a1c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Pillar.fbx using Guid(1fb79ada319137d42aaacf3c6e6a1c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '758465c28ccf790376eac00e38c8a3a9') in 0.0380709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Stair.fbx
+  artifactKey: Guid(c94f730557cecc3439d9b0341584cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Stair.fbx using Guid(c94f730557cecc3439d9b0341584cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de2856fc204432360d1ee292ecbc95b0') in 0.04705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Ssang_Dae_Wall_A.fbx
+  artifactKey: Guid(d1d33e9de748ffa4283b3dc23000594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Ssang_Dae_Wall_A.fbx using Guid(d1d33e9de748ffa4283b3dc23000594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc9026b7b8c324206a455b8b57b2b659') in 0.0209961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_A.fbx
+  artifactKey: Guid(f7c40edc55371c143818908298adaa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_A.fbx using Guid(f7c40edc55371c143818908298adaa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c72518f8004c06d1a828fcd05ef00731') in 0.0219388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Ssang_Dae_Sign_G.fbx
+  artifactKey: Guid(07f19694165ec11408ba711c33c13f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Ssang_Dae_Sign_G.fbx using Guid(07f19694165ec11408ba711c33c13f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec349f569103e2d4eb4b45f8c02f0810') in 0.0204086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Ssang_Dae_Step.fbx
+  artifactKey: Guid(c66ca07f00d6e36419b88e8e5241b01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Ssang_Dae_Step.fbx using Guid(c66ca07f00d6e36419b88e8e5241b01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa7d91cf5b284e0c6cb61853673472e2') in 0.0217472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Ssang_Dae_Sign_F.fbx
+  artifactKey: Guid(340220a3f90e7894a9a2a718862e4a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Ssang_Dae_Sign_F.fbx using Guid(340220a3f90e7894a9a2a718862e4a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d61d84b48ca19303921c0d96438d343') in 0.0206972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612279 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_F.fbx
+  artifactKey: Guid(c962253902c00d74cbbc159878102383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_F.fbx using Guid(c962253902c00d74cbbc159878102383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46186df2f5d3d8a01f19b99a73365274') in 0.0214701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Wall_F.fbx
+  artifactKey: Guid(0dc26adeaad264142a8efb1829a983a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Wall_F.fbx using Guid(0dc26adeaad264142a8efb1829a983a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3226bf503f855652992b0fef15d87606') in 0.0229119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_K.fbx
+  artifactKey: Guid(11510a8fc49759c448c9b7ff9d7d5505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_K.fbx using Guid(11510a8fc49759c448c9b7ff9d7d5505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9adc87e98074125b0b0e01db1dd1b870') in 0.0235614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Gate_Gongpo_A.fbx
+  artifactKey: Guid(efe5f0dce5f49de4b915477d2e16ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Gate_Gongpo_A.fbx using Guid(efe5f0dce5f49de4b915477d2e16ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b74819fd8c6fe5042cf935117c4ab6b') in 0.0235068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Wall_C.fbx
+  artifactKey: Guid(1c587a851a084c04cb5a4ae4141d3b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Wall_C.fbx using Guid(1c587a851a084c04cb5a4ae4141d3b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '502fc224720b7146a6abe79019b2a593') in 0.0247611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Wall_E.fbx
+  artifactKey: Guid(65aacdcfd9d6fba46be572cdef7262ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Wall_E.fbx using Guid(65aacdcfd9d6fba46be572cdef7262ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f08efcf0cba2a27ad1cc0ec2783d7d16') in 0.0229668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_J.fbx
+  artifactKey: Guid(5fb42ce41b3c63343aa55024db8a14fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Stone_J.fbx using Guid(5fb42ce41b3c63343aa55024db8a14fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fff0fd7711f1cdf2f2db75619a98dfda') in 0.0233663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Gate_Stone.fbx
+  artifactKey: Guid(60eb4716fb7e346439612a8e93d6ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Gate_Stone.fbx using Guid(60eb4716fb7e346439612a8e93d6ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c29ae975c13c3dc13d9aa92dc5b3cd8e') in 0.0233973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Dae_Wall_A.fbx
+  artifactKey: Guid(262e40b322df147419e6444572ead8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Dae_Wall_A.fbx using Guid(262e40b322df147419e6444572ead8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6056a1b73356948afa92111b891f90ea') in 0.023382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Dori_A.fbx
+  artifactKey: Guid(b4ff4c68daa9dad43bc6c1cbe5491151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Dori_A.fbx using Guid(b4ff4c68daa9dad43bc6c1cbe5491151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d96a4bb43320d74b0d891a3663374e0') in 0.0253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043615 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Gang.fbx
+  artifactKey: Guid(9dfc43fe2cdde27468cb5397972a852f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Gang.fbx using Guid(9dfc43fe2cdde27468cb5397972a852f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0e736648585a9512e7d1a842b2b8591') in 0.0225007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Pillar.fbx
+  artifactKey: Guid(313902c6a7c02084a83016865400ce2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Pillar.fbx using Guid(313902c6a7c02084a83016865400ce2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc6d287188983614bf5d360a7bf38439') in 0.0204038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Wall_A.fbx
+  artifactKey: Guid(2f929c41e0431ff4bbdf224b473a5e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Wall_A.fbx using Guid(2f929c41e0431ff4bbdf224b473a5e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f534daca806feb47a24b44dcc0d6f2a6') in 0.0217753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Wall_C.fbx
+  artifactKey: Guid(32371806b5cb7294297e734e495148d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Wall_C.fbx using Guid(32371806b5cb7294297e734e495148d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a579749ef89bed4aee2afd04434a98b') in 0.0213075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Kidan.fbx
+  artifactKey: Guid(f642032e7db195f4f97280e27768a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Kidan.fbx using Guid(f642032e7db195f4f97280e27768a325) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8717874bd434e91a3deaffdf28c9d2e2') in 0.032072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Roof_A.fbx
+  artifactKey: Guid(5d3b25d2b4cb601438af31fed482d243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Roof_A.fbx using Guid(5d3b25d2b4cb601438af31fed482d243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f32caa8b1b9b934685e501821cb2261e') in 0.0231883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Step.fbx
+  artifactKey: Guid(8caf63ea6d3c2394da87aaf70456142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Step.fbx using Guid(8caf63ea6d3c2394da87aaf70456142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79c8a3ece96c69f25c97782f37f25e2d') in 0.0222537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_A.fbx
+  artifactKey: Guid(7640bfe4edda291428905a388dad2069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_Stone_A.fbx using Guid(7640bfe4edda291428905a388dad2069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5cc5b2d2cd26c30ba1b29e630b896b7') in 0.0200489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Kidan.fbx
+  artifactKey: Guid(75e4256707412ed42867dbe340e4af70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Kidan.fbx using Guid(75e4256707412ed42867dbe340e4af70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eaa67c8e8442233f39d6822499d17a8') in 0.0216231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Kak_Roof.fbx
+  artifactKey: Guid(20a58408219ed3440aceffee33ee9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Kak_Roof.fbx using Guid(20a58408219ed3440aceffee33ee9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '734bb56432738025694bc51fde96f0aa') in 0.0215613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Meshes/SM_Sun_Pal_sign.fbx
+  artifactKey: Guid(214ee49eb37256644863dfb76f194079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Meshes/SM_Sun_Pal_sign.fbx using Guid(214ee49eb37256644863dfb76f194079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56f838a1f5e08eabd8b312683969036c') in 0.0220586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.848842 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Sign_C.mat
+  artifactKey: Guid(3dc4007f71d27fc40be0a4a1944c3a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Sign_C.mat using Guid(3dc4007f71d27fc40be0a4a1944c3a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a624d01bc57e19957b9d8343d9d649b4') in 0.0199397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002328 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Wall_B.mat
+  artifactKey: Guid(4126c5a26ecc14d46aa789b98e4aa8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Wall_B.mat using Guid(4126c5a26ecc14d46aa789b98e4aa8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a394c3913e751e9e4ab0d4db4a5a12e9') in 0.0513931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Pal_Gongpo_B.mat
+  artifactKey: Guid(e690451bfab3fd74ca1848a2e0aceb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Pal_Gongpo_B.mat using Guid(e690451bfab3fd74ca1848a2e0aceb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6fea8bebb9285dd5c47ec4aa3217d7f') in 0.045474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Pal_Pillar_B.mat
+  artifactKey: Guid(e13975aec23e9824fbbcad88ae69b6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Pal_Pillar_B.mat using Guid(e13975aec23e9824fbbcad88ae69b6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e10bb121585ae670ff416df19b814703') in 0.0350445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Pal_Step.mat
+  artifactKey: Guid(860ea292b1b902c4ab9acaccf06f60df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Pal_Step.mat using Guid(860ea292b1b902c4ab9acaccf06f60df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe50e6de65e2c949f165964fb2a4ad45') in 0.0465749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Wall_D.mat
+  artifactKey: Guid(eba03800ad6b50e4d8561f95ab9041b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Wall_D.mat using Guid(eba03800ad6b50e4d8561f95ab9041b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c40e14e78589dae945a822288730fcf') in 0.0291622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Pal_Kidan.mat
+  artifactKey: Guid(792b5d7c050f94a45af0d592f61cc966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Pal_Kidan.mat using Guid(792b5d7c050f94a45af0d592f61cc966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa31c506020276a5f61f4d0ab00230db') in 0.0205356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Stone.mat
+  artifactKey: Guid(e88b00b45bdc2094ca795016eeae2b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Stone.mat using Guid(e88b00b45bdc2094ca795016eeae2b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eac89542ae22655071d4289432ffe4d7') in 0.0159924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Pal_Bang.mat
+  artifactKey: Guid(4e7a30f212f63f0449e22b4c874add5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Pal_Bang.mat using Guid(4e7a30f212f63f0449e22b4c874add5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32819ecbc78e9658404f51008210a098') in 0.0193041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.243294 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Gonpo_A.mat
+  artifactKey: Guid(95390f14f32c0f245b993d60bc0ea0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Gonpo_A.mat using Guid(95390f14f32c0f245b993d60bc0ea0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69c99fc76469211ef8eab494a5ac1236') in 0.0168973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Roof.mat
+  artifactKey: Guid(ba83b4cd63902dd4a944eafd2af2b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Roof.mat using Guid(ba83b4cd63902dd4a944eafd2af2b459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39d510ad55dd54c0e89c480048135def') in 0.0191398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Kidan.mat
+  artifactKey: Guid(107f327afc3731a4aaedfc1bdb9bafd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Kidan.mat using Guid(107f327afc3731a4aaedfc1bdb9bafd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2687af9fa03163e27858a0c5c67faa69') in 0.0193154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Dori_A.mat
+  artifactKey: Guid(9da13f4cc75730f4a998e8cb08af4ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Dori_A.mat using Guid(9da13f4cc75730f4a998e8cb08af4ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fae60e5b376be6a9947c5d0436b251b6') in 0.044229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Gate_Stone.mat
+  artifactKey: Guid(1106ae27de8c5224fa56beb26030bd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Gate_Stone.mat using Guid(1106ae27de8c5224fa56beb26030bd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '949a3fbfc34c8b0fbb52823ea31bd513') in 0.01569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Kak_Sign_A.mat
+  artifactKey: Guid(7b581dc09ec5b8f4ca357ec55d14fcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Kak_Sign_A.mat using Guid(7b581dc09ec5b8f4ca357ec55d14fcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '131d71a696e4402dfef2448c2f5e0fe0') in 0.0159591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.272115 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Gate_Dori_A.mat
+  artifactKey: Guid(2e48c780b93772540ae6bcb25d6e11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Gate_Dori_A.mat using Guid(2e48c780b93772540ae6bcb25d6e11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e13012d5164143fbc3464d2eaa8281') in 0.0419741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Gate_Roof_B.mat
+  artifactKey: Guid(85d430d31326ee64a8dcb881156998f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Gate_Roof_B.mat using Guid(85d430d31326ee64a8dcb881156998f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19ce31078c375fed99cdcf0fa3cbd301') in 0.0218599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TemplesKor/Materials/M_Sun_Gate_Pillar.mat
+  artifactKey: Guid(023455f1e892880428f2cf2642b2a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Materials/M_Sun_Gate_Pillar.mat using Guid(023455f1e892880428f2cf2642b2a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '727cbd8962a990762c454649b1a4cec2') in 0.0207245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.640140 seconds.
+  path: Assets/Prefab/Obstacle.prefab
+  artifactKey: Guid(4f7dcbd70d9d0274687edd6d807fc036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Obstacle.prefab using Guid(4f7dcbd70d9d0274687edd6d807fc036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2ae3b1e4e355fd654cd1da9ff8338c4') in 0.0961403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.649 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1277ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (109ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (420ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3183 unused Assets / (0.9 MB). Loaded Objects now: 3802.
+Memory consumption went from 127.8 MB to 126.9 MB.
+Total: 6.594400 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.337400 ms MarkObjects: 4.888100 ms  DeleteObjects: 1.006000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 386.645978 seconds.
+  path: Assets/Prefab/Wall.prefab
+  artifactKey: Guid(49b916756edede441b7719f27ffa378f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Wall.prefab using Guid(49b916756edede441b7719f27ffa378f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '094f50f2cad1a544782003904abdcb03') in 0.1259892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.142926 seconds.
+  path: Assets/TemplesKor/Scenes/Demo.unity
+  artifactKey: Guid(25a07243802131d4fa96013634a6059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TemplesKor/Scenes/Demo.unity using Guid(25a07243802131d4fa96013634a6059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8df49f094ee3613ce29295389ad4913c') in 0.0007976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.649 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 1262ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3184 unused Assets / (0.9 MB). Loaded Objects now: 3802.
+Memory consumption went from 129.8 MB to 128.9 MB.
+Total: 5.770100 ms (FindLiveObjects: 0.327400 ms CreateObjectMapping: 0.182800 ms MarkObjects: 4.192200 ms  DeleteObjects: 1.066700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.644 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (401ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3183 unused Assets / (0.9 MB). Loaded Objects now: 3802.
+Memory consumption went from 131.7 MB to 130.8 MB.
+Total: 6.201100 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.188800 ms MarkObjects: 4.678700 ms  DeleteObjects: 0.990300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.628 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (650ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (420ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3183 unused Assets / (1.0 MB). Loaded Objects now: 3802.
+Memory consumption went from 133.6 MB to 132.6 MB.
+Total: 6.791400 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.364800 ms MarkObjects: 5.033000 ms  DeleteObjects: 0.997400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
