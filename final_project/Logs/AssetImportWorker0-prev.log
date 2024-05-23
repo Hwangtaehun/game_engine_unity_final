@@ -15,7 +15,7 @@ D:/Github/game_engine_unity_final/final_project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62138
+62349
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ D:/Github/game_engine_unity_final/final_project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12968] Host "[IP] 192.168.45.8 [Port] 0 [Flags] 2 [Guid] 3733698034 [EditorId] 3733698034 [Version] 1048832 [Id] WindowsEditor(7,transferscholarship) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [12968] Host "[IP] 192.168.45.8 [Port] 0 [Flags] 2 [Guid] 3733698034 [EditorId] 3733698034 [Version] 1048832 [Id] WindowsEditor(7,transferscholarship) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21864] Host "[IP] 192.168.45.8 [Port] 0 [Flags] 2 [Guid] 1252770912 [EditorId] 1252770912 [Version] 1048832 [Id] WindowsEditor(7,transferscholarship) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21864] Host "[IP] 192.168.45.8 [Port] 0 [Flags] 2 [Guid] 1252770912 [EditorId] 1252770912 [Version] 1048832 [Id] WindowsEditor(7,transferscholarship) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.13f1 (70197a359f36)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004847 seconds.
-- Loaded All Assemblies, in  0.380 seconds
+Registered in 0.005801 seconds.
+- Loaded All Assemblies, in  0.740 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.274 seconds
-Domain Reload Profiling: 650ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.386 seconds
+Domain Reload Profiling: 1121ms
+	BeginReloadAssembly (302ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (141ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (293ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (247ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (274ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (386ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (234ms)
+		SetupLoadedEditorAssemblies (336ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (167ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,814 +150,156 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.793 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.193 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.595 seconds
-Domain Reload Profiling: 1383ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  0.630 seconds
+Domain Reload Profiling: 1815ms
+	BeginReloadAssembly (551ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (383ms)
-		LoadAssemblies (323ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (132ms)
-			BuildScriptInfoCaches (17ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (596ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (395ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (319ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3185 unused Assets / (1.1 MB). Loaded Objects now: 3755.
-Memory consumption went from 123.7 MB to 122.6 MB.
-Total: 6.234100 ms (FindLiveObjects: 0.370100 ms CreateObjectMapping: 0.217100 ms MarkObjects: 4.619900 ms  DeleteObjects: 1.025900 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Github\game_engine_unity_final\final_project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.595 seconds
-Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.529 seconds
-Domain Reload Profiling: 1119ms
-	BeginReloadAssembly (201ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
+		CreateAndSetChildDomain (44ms)
 	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (310ms)
-		LoadAssemblies (311ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (496ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (97ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (530ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (136ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (630ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (336ms)
+		SetupLoadedEditorAssemblies (431ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3183 unused Assets / (0.9 MB). Loaded Objects now: 3755.
-Memory consumption went from 120.2 MB to 119.3 MB.
-Total: 5.949800 ms (FindLiveObjects: 0.408300 ms CreateObjectMapping: 0.360900 ms MarkObjects: 4.274700 ms  DeleteObjects: 0.904900 ms)
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3185 unused Assets / (1.1 MB). Loaded Objects now: 3755.
+Memory consumption went from 123.6 MB to 122.6 MB.
+Total: 7.178200 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.299400 ms MarkObjects: 5.389600 ms  DeleteObjects: 1.089700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 617141.594513 seconds.
-  path: Assets/TemplesKor/Materials/ez.mat
-  artifactKey: Guid(170b82a143fcf3649ad027c7ca3fef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/ez.mat using Guid(170b82a143fcf3649ad027c7ca3fef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2365d0e8addb0c6e242719ecf236a9dd') in 0.1267369 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Gongpo.mat
-  artifactKey: Guid(b84b5b4c4fe0e8149914af317d076841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Gongpo.mat using Guid(b84b5b4c4fe0e8149914af317d076841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4d0d653cdc10a36372024611471f148') in 0.0477426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Wall_A.mat
-  artifactKey: Guid(9bc4548b273b82845b958f763210fbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Wall_A.mat using Guid(9bc4548b273b82845b958f763210fbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49a6c2cc2669cf9ffd20448f8e17ccf7') in 0.0286895 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Pillar_D.mat
-  artifactKey: Guid(930a65ec1d603094c9dc706a9c91a943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Pillar_D.mat using Guid(930a65ec1d603094c9dc706a9c91a943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a0564978ee3ef4738413bfd4306748d') in 0.0179922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Pillar_C.mat
-  artifactKey: Guid(9d98e379c95cfa342881fa178bcf72f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Pillar_C.mat using Guid(9d98e379c95cfa342881fa178bcf72f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1928034eabb5aab9877aa8fda8cbbc0b') in 0.0148429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Pillar_B.mat
-  artifactKey: Guid(10998820806a8314194ab4d73fd96abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Pillar_B.mat using Guid(10998820806a8314194ab4d73fd96abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aa740236f50aae96cd5906c4a45f05a') in 0.0160775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Pillar_B.mat
-  artifactKey: Guid(bc01b6b4715722645b65a15655954fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Pillar_B.mat using Guid(bc01b6b4715722645b65a15655954fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '674ea79428174aceeaf424ff297bea74') in 0.0158207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_D.mat
-  artifactKey: Guid(591547c08d5590c4695e9407a66623c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_D.mat using Guid(591547c08d5590c4695e9407a66623c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f31ed59b1e95b5b4d461d7b7e3e303aa') in 0.0224504 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Wall_F.mat
-  artifactKey: Guid(a4558f87309a6c44183c9a854e29812d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Wall_F.mat using Guid(a4558f87309a6c44183c9a854e29812d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9df334a132d3c91a86569c4e7ab8315f') in 0.0231247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Kidan.mat
-  artifactKey: Guid(e477f72c287cdf74dbc04c5fbb7056e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Kidan.mat using Guid(e477f72c287cdf74dbc04c5fbb7056e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a466d8023ab0230967bebf9b0629cc25') in 0.0214905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Sign.mat
-  artifactKey: Guid(0bf5767b9852caa46a4bb5fd44191f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Sign.mat using Guid(0bf5767b9852caa46a4bb5fd44191f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6733273b50bc87d38aae148cee643c6') in 0.018409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Stone.mat
-  artifactKey: Guid(7285725a7e73eb841987137dc81a45a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Stone.mat using Guid(7285725a7e73eb841987137dc81a45a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb5e74e226027013e3311768bd059b1') in 0.0160361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Wall_E.mat
-  artifactKey: Guid(f2558091f4e294340b345c410d2b6c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Wall_E.mat using Guid(f2558091f4e294340b345c410d2b6c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e3f4636f2c2508e4ee5a1e63cecb359') in 0.0225697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_A.mat
-  artifactKey: Guid(31cf1f8802d34a34fbb1c897eb41114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_A.mat using Guid(31cf1f8802d34a34fbb1c897eb41114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7c10c1db609b4319ddb055d860b6e4f') in 0.017139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TemplesKor/Materials/M_SC_Seonamsa_Daegagam_Stupa.mat
-  artifactKey: Guid(be78f832941875d4ea01e275af8d6b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_SC_Seonamsa_Daegagam_Stupa.mat using Guid(be78f832941875d4ea01e275af8d6b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12c322aa6f817e6d9ab0d0d1baca0fd6') in 0.020166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TemplesKor/Materials/M_SC_East_Three_Stone_Pagoda.mat
-  artifactKey: Guid(c1c236c28d4d81f45b7bea7f242f0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_SC_East_Three_Stone_Pagoda.mat using Guid(c1c236c28d4d81f45b7bea7f242f0c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae202265864802aef4fc7395c290bb07') in 0.0219375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Stone.mat
-  artifactKey: Guid(7452ad69b9016af4d8eef00c188ff1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Stone.mat using Guid(7452ad69b9016af4d8eef00c188ff1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41ce3ee004c881749c1cc5acad7179ff') in 0.0166435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Gong_C.mat
-  artifactKey: Guid(7fd789b8da816524e8bff10e165308d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Gong_C.mat using Guid(7fd789b8da816524e8bff10e165308d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d9285886cdd2bf5dd912b161598c283') in 0.0187887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Gongpo_B.mat
-  artifactKey: Guid(998056c187e4e7d4ba524a734d52a9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Gongpo_B.mat using Guid(998056c187e4e7d4ba524a734d52a9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd591dd700e3407c408e021f8655d94d') in 0.018313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Hyeonpan.mat
-  artifactKey: Guid(96f7edb875951ed46af29b8a02833a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Hyeonpan.mat using Guid(96f7edb875951ed46af29b8a02833a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef131b601bfd7f81aca34e075f801939') in 0.0160132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Sign.mat
-  artifactKey: Guid(7d52b89deebd47f40b7b4da654a61643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Sign.mat using Guid(7d52b89deebd47f40b7b4da654a61643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4631e6485696ac393fe74d8f1400cf1') in 0.0155715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_SC_Seonamsa_Jungsubi.mat
-  artifactKey: Guid(5b2f4f07c65fbdd468a82f92b08c43e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_SC_Seonamsa_Jungsubi.mat using Guid(5b2f4f07c65fbdd468a82f92b08c43e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa9855340ff698c60491a7461d173ea2') in 0.0211812 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_G.mat
-  artifactKey: Guid(79eddb28f1a7f9e4c9d802a2088ff3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_G.mat using Guid(79eddb28f1a7f9e4c9d802a2088ff3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd39d221c1b2d0b959dd62fbde53b3405') in 0.0221141 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Step.mat
-  artifactKey: Guid(4fbee4d14c08f5e41a74a8832710fd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Step.mat using Guid(4fbee4d14c08f5e41a74a8832710fd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2590c17aa41e41310afde734657cc42') in 0.015696 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_H.mat
-  artifactKey: Guid(6cb9d25ffa0869744a3bff1b0ffded51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_H.mat using Guid(6cb9d25ffa0869744a3bff1b0ffded51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56670c75d29487cdd9a74a7f1694f415') in 0.0231716 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/TemplesKor/Materials/K_Kirim_Dae_Step.mat
-  artifactKey: Guid(b85c7b4d617aad84a95eae04de6dce6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/K_Kirim_Dae_Step.mat using Guid(b85c7b4d617aad84a95eae04de6dce6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7a84f662f6e95f7c5e67029db2d7d35') in 0.0180711 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_C.mat
-  artifactKey: Guid(47bf8cd29c01ee14bad39de9b13d3d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Geumsan_Mi_Wall_C.mat using Guid(47bf8cd29c01ee14bad39de9b13d3d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e767ec4353801e89eace88b64534c84c') in 0.0200787 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.579589 seconds.
-  path: Assets/TemplesKor/Materials/M_SC_Seonamsa_MaAeyeoraeipsang.mat
-  artifactKey: Guid(dae5beb9678704d4c88845da2962e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_SC_Seonamsa_MaAeyeoraeipsang.mat using Guid(dae5beb9678704d4c88845da2962e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9306cdc50aca8cfb363772f59617acb6') in 0.0212729 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Song_Jong_Gongpo_B.mat
-  artifactKey: Guid(46c01d30fd8c4d3429dd889a23190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Song_Jong_Gongpo_B.mat using Guid(46c01d30fd8c4d3429dd889a23190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e572f804c28e759d20bdcccacbce5e77') in 0.0180224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TemplesKor/Materials/M_Song_Jong_Gongpo_A.mat
-  artifactKey: Guid(41a9e847ffe62d046bd0c2751da9009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Song_Jong_Gongpo_A.mat using Guid(41a9e847ffe62d046bd0c2751da9009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '188da410a9d3bd7800adbc38fda3a732') in 0.0244335 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TemplesKor/Materials/M_Ssang_Dae_Bang_A.mat
-  artifactKey: Guid(c0ab6554a92b1ab4c8346a09eddd149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Ssang_Dae_Bang_A.mat using Guid(c0ab6554a92b1ab4c8346a09eddd149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69ac42a04155aaa87632f9fb2f7673bf') in 0.0191267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TemplesKor/Materials/M_Song_Jong_Roof.mat
-  artifactKey: Guid(4d16b25c371ca4e4fa1eca3bd8cd8e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Song_Jong_Roof.mat using Guid(4d16b25c371ca4e4fa1eca3bd8cd8e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f921f9d590ea50fa84bac3557f15f18c') in 0.0204313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TemplesKor/Materials/M_Ssang_Dae_Jang.mat
-  artifactKey: Guid(6b8075a79159c0c47b09f2364549eaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Ssang_Dae_Jang.mat using Guid(6b8075a79159c0c47b09f2364549eaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '503a89b94dfd23d4cb3c291fd9a9959d') in 0.0212511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TemplesKor/Materials/M_Song_Jong_Stair.mat
-  artifactKey: Guid(af4290095b5b41241b649cad05961853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Song_Jong_Stair.mat using Guid(af4290095b5b41241b649cad05961853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '397e0a86b8640ed3004480cd02167a28') in 0.0141526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_gong.mat
-  artifactKey: Guid(7e4ae542514156448a6c8c3946c73eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_gong.mat using Guid(7e4ae542514156448a6c8c3946c73eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '942fce95ada36be1f199d7f457978e11') in 0.0212465 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Ssang_Dae_Stone.mat
-  artifactKey: Guid(6bad6f9e29751eb4d8d55156c07a0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Ssang_Dae_Stone.mat using Guid(6bad6f9e29751eb4d8d55156c07a0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec853a4f5be5afc0f15d07d09333a8ba') in 0.0143035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TemplesKor/Materials/M_Ssang_Dae_Step.mat
-  artifactKey: Guid(67b1b9217e81c014aa7893032e46768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Ssang_Dae_Step.mat using Guid(67b1b9217e81c014aa7893032e46768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84a06efad5e2b0eae0bcdacf61c4c188') in 0.0162617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Ssang_Dae_Wall_B.mat
-  artifactKey: Guid(871415562a06c2d46a5618ba8837fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Ssang_Dae_Wall_B.mat using Guid(871415562a06c2d46a5618ba8837fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3197f076d62a02eca0bf1cc3af1203d4') in 0.021437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TemplesKor/Materials/M_Song_Jong_Bang.mat
-  artifactKey: Guid(982675c86b269ad45a1df33cd9eebd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Song_Jong_Bang.mat using Guid(982675c86b269ad45a1df33cd9eebd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1beb525b3217d3ec85c88f8f7b3adc2') in 0.0250808 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_Song_Jong_Floor.mat
-  artifactKey: Guid(c737df0782b974a4eb55d87cce1a246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Song_Jong_Floor.mat using Guid(c737df0782b974a4eb55d87cce1a246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2c765c67ad91e34d161fc5466409541') in 0.0230041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TemplesKor/Materials/M_Ssang_Dae_Roof.mat
-  artifactKey: Guid(d203525a7c8c7af4e8798ab1496d8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Ssang_Dae_Roof.mat using Guid(d203525a7c8c7af4e8798ab1496d8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b069320e06d597ddceb559a583c8a4c7') in 0.0189707 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TemplesKor/Materials/M_Song_Jong_Gongpo_D.mat
-  artifactKey: Guid(e7707cb467b5c0d4481399e78d9284b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Song_Jong_Gongpo_D.mat using Guid(e7707cb467b5c0d4481399e78d9284b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d4f87b824c7c39dd4794386add93fa') in 0.0154625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008284 seconds.
-  path: Assets/TemplesKor/Materials/M_Ssang_Dae_Pillar_B.mat
-  artifactKey: Guid(41c3f91e0b2a82b4b958cdc188d47f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Ssang_Dae_Pillar_B.mat using Guid(41c3f91e0b2a82b4b958cdc188d47f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d91195af966884afdb20f6611d5967f') in 0.0152323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TemplesKor/Materials/M_Song_Jong_Dori.mat
-  artifactKey: Guid(2054d1a66d968e74ab54e63e14a06c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Song_Jong_Dori.mat using Guid(2054d1a66d968e74ab54e63e14a06c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9723de2e869a4cfe71358cd79d05729a') in 0.0192652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_Stone.mat
-  artifactKey: Guid(75acc267dd3a6114193f14fc2b4bf488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_Stone.mat using Guid(75acc267dd3a6114193f14fc2b4bf488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '791ccadb5f9d1e9e03fdcf8b275379a9') in 0.0152662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Dae_Wall_A.mat
-  artifactKey: Guid(0ab7ce216c05db64c8a4074cac6c28d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Dae_Wall_A.mat using Guid(0ab7ce216c05db64c8a4074cac6c28d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e55ce65c309d2ec87c0636a96c24518') in 0.0206393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_Wall_A.mat
-  artifactKey: Guid(6ee3f18590dec504696c170f9e32e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_Wall_A.mat using Guid(6ee3f18590dec504696c170f9e32e5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5955c7e5c1cf49fa75bb48333ddcb637') in 0.018763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_Sign.mat
-  artifactKey: Guid(89c2e75f7ea4649499aee2890b7ebd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_Sign.mat using Guid(89c2e75f7ea4649499aee2890b7ebd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dda97693b5a041188f9c7cf15f16ec5') in 0.0149213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_Roof.mat
-  artifactKey: Guid(73677539422519d4b8584d7fa628b95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_Roof.mat using Guid(73677539422519d4b8584d7fa628b95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42fc86e5006a061a069a11efaea510a9') in 0.0196883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_Wall_B.mat
-  artifactKey: Guid(1f4595e7c5eb2fe479240d98cc2e13c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_Wall_B.mat using Guid(1f4595e7c5eb2fe479240d98cc2e13c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bd18aec73b9d53942ca2253e80a3636') in 0.0215861 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Dae_sign.mat
-  artifactKey: Guid(e0ccda73f39fafb4cae5bf7ad854429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Dae_sign.mat using Guid(e0ccda73f39fafb4cae5bf7ad854429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f294092f988a623137e3af8f95b128c5') in 0.0211589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Dae_Pillar.mat
-  artifactKey: Guid(2a3112f59eb663c44b248169f6bfd2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Dae_Pillar.mat using Guid(2a3112f59eb663c44b248169f6bfd2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c21d1d1cc00fd2e8f248cb2a701d3172') in 0.0176163 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Dae_Gongpo.mat
-  artifactKey: Guid(7eece4a40b557664ba4ee4e2f172f4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Dae_Gongpo.mat using Guid(7eece4a40b557664ba4ee4e2f172f4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '362b0b3e26458ccd7336fb4fdfa796c5') in 0.0175207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Dae_Wall_B.mat
-  artifactKey: Guid(e7faa6765457e6449a9345eca608af97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Dae_Wall_B.mat using Guid(e7faa6765457e6449a9345eca608af97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c3a3f329d9149ec462fb9f4ef610622') in 0.023506 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Dae_Bang_B.mat
-  artifactKey: Guid(7623115d24ccc1545bd69cd966b80908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Dae_Bang_B.mat using Guid(7623115d24ccc1545bd69cd966b80908) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b67a8b20311effe5e26a01ec20fec75e') in 0.0212549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Dae_Wall_E.mat
-  artifactKey: Guid(a6350c2c9652e334797506e151c3e2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Dae_Wall_E.mat using Guid(a6350c2c9652e334797506e151c3e2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f4b21a6681753f0b1f57082aa4ed60e') in 0.021463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_Pillar.mat
-  artifactKey: Guid(2be56c51d8e010f46ac1fc9f430991c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_Pillar.mat using Guid(2be56c51d8e010f46ac1fc9f430991c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0068e4f0b78c15abdc906a52feeb230a') in 0.0168877 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_Wall_C.mat
-  artifactKey: Guid(165122cb49eb5484ebbd1ec7390ced35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_Wall_C.mat using Guid(165122cb49eb5484ebbd1ec7390ced35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9690f9c646c522b2f27a1490577a0b95') in 0.0183097 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Bang_B.mat
-  artifactKey: Guid(d14e6a9c7270f9d43af35f2d3de2ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Bang_B.mat using Guid(d14e6a9c7270f9d43af35f2d3de2ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e430cac06c5c4615d48bf1f93832de47') in 0.0197121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Kidan_B.mat
-  artifactKey: Guid(40813cdb348fb2d46af8b4f203fe68ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Kidan_B.mat using Guid(40813cdb348fb2d46af8b4f203fe68ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c69b8d940e7923a037a3d535402b6a8') in 0.021926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002306 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_C.mat
-  artifactKey: Guid(5da0b76ad87e1a54f91b6f9412d50abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_C.mat using Guid(5da0b76ad87e1a54f91b6f9412d50abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '435a60e1ac8a6c920cc40efb85dd23ea') in 0.0212474 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Jang_A.mat
-  artifactKey: Guid(59a54dbedae784747b3724b88859c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Jang_A.mat using Guid(59a54dbedae784747b3724b88859c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '800721b2eb8d74124980a7a31292fcf5') in 0.0194675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Gonpo_A.mat
-  artifactKey: Guid(4bd0483863f670343ab5f164e13c145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Gonpo_A.mat using Guid(4bd0483863f670343ab5f164e13c145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ce1a76f19476a7989f9dfda78bf2b69') in 0.0184704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_B.mat
-  artifactKey: Guid(da223da6deac9f843bbb1c50f9de5f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_B.mat using Guid(da223da6deac9f843bbb1c50f9de5f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbd6f5001ae9f9567fcf814d73c4056f') in 0.0199937 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_A.mat
-  artifactKey: Guid(dd5fed664a5f27e46a76e184e5932d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_A.mat using Guid(dd5fed664a5f27e46a76e184e5932d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e3e24e758bccf96b1b9902f097736fc') in 0.0212445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_E.mat
-  artifactKey: Guid(c0e3dfa189f733b43a2a0e35033f4f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_E.mat using Guid(c0e3dfa189f733b43a2a0e35033f4f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffa3271825e0316d8145e4272cfd7dac') in 0.0231439 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_F.mat
-  artifactKey: Guid(694fbc2992469db4dbe988e1cf91f9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_F.mat using Guid(694fbc2992469db4dbe988e1cf91f9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdcfe99edb3bfc744c6e809f8efd465b') in 0.0236013 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Pillar_A.mat
-  artifactKey: Guid(f64a22637a01d204aa20fe209895713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Pillar_A.mat using Guid(f64a22637a01d204aa20fe209895713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4def4da8932da16bc87a92f1470fe827') in 0.0155395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Pal_Stone.mat
-  artifactKey: Guid(2c7508353d55dd84e8e6a63ea391bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Pal_Stone.mat using Guid(2c7508353d55dd84e8e6a63ea391bc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fbdf0cf4a2484f259eda21ce6f9f2af') in 0.0189376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Wall_E.mat
-  artifactKey: Guid(4553ed4e63e9dbe40978a63e42c3d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Wall_E.mat using Guid(4553ed4e63e9dbe40978a63e42c3d32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bca362737424c0a76cbf734e4cc31f44') in 0.0235409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Jang_B.mat
-  artifactKey: Guid(08b263c138b39244db70575c05289610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Jang_B.mat using Guid(08b263c138b39244db70575c05289610) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97d7023a64acdf5bbbe9b09310d6a84c') in 0.0168127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TemplesKor/Materials/SM_SC_Seonamsa_North_Stupa.mat
-  artifactKey: Guid(165099833eefc3943acf3b11899dbd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/SM_SC_Seonamsa_North_Stupa.mat using Guid(165099833eefc3943acf3b11899dbd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '679f19d994e6eb3c5bd61aa2ecdf39a4') in 0.0217126 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_H.mat
-  artifactKey: Guid(88d8df41b4b6d934cb38bcd0b3339a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_H.mat using Guid(88d8df41b4b6d934cb38bcd0b3339a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f61824466606d9751c4e6b919db63503') in 0.0211435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Roof.mat
-  artifactKey: Guid(53fd86c74b18de6499a42acaa3adf448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Roof.mat using Guid(53fd86c74b18de6499a42acaa3adf448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d758ddb5c1bc602a0fe31945853a8af') in 0.0214599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_D.mat
-  artifactKey: Guid(385b0d58a12704f499b9e0460ab228d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_D.mat using Guid(385b0d58a12704f499b9e0460ab228d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8faff5b2d3ad8c844c2e6ff4a55f61e') in 0.0216647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Wall_B.mat
-  artifactKey: Guid(f750d679e9d1e774c8012cdc150f3c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Wall_B.mat using Guid(f750d679e9d1e774c8012cdc150f3c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59b5bbe03e4b51e3899e7b4c1ae0aca9') in 0.0306023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_J.mat
-  artifactKey: Guid(064c5e170d690eb41a7e12ec90c52525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_J.mat using Guid(064c5e170d690eb41a7e12ec90c52525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a72e72d32255d8c1d7007707f50069e') in 0.0262661 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_K.mat
-  artifactKey: Guid(d54765c40d27741449d87832778471b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Wall_K.mat using Guid(d54765c40d27741449d87832778471b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '747908d179173f9c3e415ab97fa51a99') in 0.0231301 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Toilet_Stone.mat
-  artifactKey: Guid(692e719156b7f024da493b4803da67fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Toilet_Stone.mat using Guid(692e719156b7f024da493b4803da67fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'def4867c6db31a16a0398765967ddc9f') in 0.0199071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Wall_C.mat
-  artifactKey: Guid(17d1b7968d655224583c1b377179e039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Wall_C.mat using Guid(17d1b7968d655224583c1b377179e039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fe6dc2966c5751e1f62094f1f85b4f9') in 0.0208252 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Wall_D.mat
-  artifactKey: Guid(b127d2bb18659bf4c8f30c4985e75ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Wall_D.mat using Guid(b127d2bb18659bf4c8f30c4985e75ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04cfd06fc35a1df9d8165af1215da395') in 0.0208653 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Pal_Wall_F.mat
-  artifactKey: Guid(5c6f000231945d241b5fa5ce7059e66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Pal_Wall_F.mat using Guid(5c6f000231945d241b5fa5ce7059e66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '404da933dea9d00efbce52ed6d4da601') in 0.0225855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Jang_C.mat
-  artifactKey: Guid(a610d3e7d3562524190562037abb3c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Jang_C.mat using Guid(a610d3e7d3562524190562037abb3c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7f6737fd096fd544dbf53dff4b8e67c') in 0.0187578 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Won_Jang_E.mat
-  artifactKey: Guid(3dfb1956318869a419eb5340b44d4dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Won_Jang_E.mat using Guid(3dfb1956318869a419eb5340b44d4dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9418d53d974654efafcd59d369e30a1') in 0.0195129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TemplesKor/Materials/M_Ssang_Dae_Kidan.mat
-  artifactKey: Guid(1493d58a0f7573042b7ec957d325b371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Ssang_Dae_Kidan.mat using Guid(1493d58a0f7573042b7ec957d325b371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85404a25db6927aa51f193289fce3210') in 0.023063 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Bul_Gongpo_A.mat
-  artifactKey: Guid(684d2c390a9e0124e909c4a849913995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Bul_Gongpo_A.mat using Guid(684d2c390a9e0124e909c4a849913995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c55722cebce553d4ed2d53ee993ae68') in 0.0180416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TemplesKor/Materials/M_Sun_Dae_Jang.mat
-  artifactKey: Guid(2aa67f51a4d4da741866d90da67b4693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Materials/M_Sun_Dae_Jang.mat using Guid(2aa67f51a4d4da741866d90da67b4693) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5ceb806689aed9eafe0389818392a30') in 0.019654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.450692 seconds.
-  path: Assets/TemplesKor/Textures/SM_Song_Jong_Sign_BC.png
-  artifactKey: Guid(5721a6d3c41dbc847990e6e08b7491b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TemplesKor/Textures/SM_Song_Jong_Sign_BC.png using Guid(5721a6d3c41dbc847990e6e08b7491b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1231f0b78e94fe08bb8c53235cb45dc') in 0.0556069 seconds
+  Time since last request: 617641.216274 seconds.
+  path: Assets/Ground textures pack/Lava/preview.jpg
+  artifactKey: Guid(70e8908fa6e673249ad9ff9cb1f1e13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Lava/preview.jpg using Guid(70e8908fa6e673249ad9ff9cb1f1e13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f0097882062eab5e9aa4bb203fab4e4') in 0.0824764 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ground textures pack/Lava/emissive.tga
+  artifactKey: Guid(c65e186198f501046a0aba89c6335cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Lava/emissive.tga using Guid(c65e186198f501046a0aba89c6335cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '380ed9e477fdddf9b4957dd3f3b19cfa') in 0.016435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ground textures pack/Dry ground/diffuse.tga
+  artifactKey: Guid(f5d1de47f0f760544a5596ceb8cc895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Dry ground/diffuse.tga using Guid(f5d1de47f0f760544a5596ceb8cc895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09f5077341a6356065805a70c07142c') in 0.017232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ground textures pack/Dry ground/Dry ground pattern.mat
+  artifactKey: Guid(d805d830c4023774cb6259aca09f431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Dry ground/Dry ground pattern.mat using Guid(d805d830c4023774cb6259aca09f431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd351ddc1ddffa463955d94a9b84de920') in 0.1884964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.804960 seconds.
+  path: Assets/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern 01.mat
+  artifactKey: Guid(893960384de673345a82517892b28bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern 01.mat using Guid(893960384de673345a82517892b28bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86c8a4bb4c9240769ed9f0a84890ceeb') in 0.139507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.901445 seconds.
+  path: Assets/Ground textures pack/Grass & dead leafs 02/Grass & dead leafs pattern 02.mat
+  artifactKey: Guid(020b997e4fa23c74297e208cd649319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & dead leafs 02/Grass & dead leafs pattern 02.mat using Guid(020b997e4fa23c74297e208cd649319c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58263f5ec8a87faf27319f5d8980e01c') in 0.0466813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.402150 seconds.
+  path: Assets/Ground textures pack/Grass & rocks/Grass & rocks pattern.mat
+  artifactKey: Guid(fedc75da63b32e249bccd7450cd29351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & rocks/Grass & rocks pattern.mat using Guid(fedc75da63b32e249bccd7450cd29351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef7f7b907530ff5107aa6dda4b8fc01b') in 0.0437448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.279009 seconds.
+  path: Assets/Ground textures pack/Grass 01/Grass pattern 01.mat
+  artifactKey: Guid(2c6f5ab601d22834883d3c7e18f8be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass 01/Grass pattern 01.mat using Guid(2c6f5ab601d22834883d3c7e18f8be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b95c0ccfd23973a11534784b5da911e7') in 0.0610503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.764212 seconds.
+  path: Assets/Ground textures pack/Ground & moss/Ground & moss pattern.mat
+  artifactKey: Guid(5558b5711d37782468eeee5c2880e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Ground & moss/Ground & moss pattern.mat using Guid(5558b5711d37782468eeee5c2880e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b76ed18dd2ae46e24495b9066e3ee9e6') in 0.0501948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.102534 seconds.
+  path: Assets/Ground textures pack/Ground & rocks 01/Ground & rocks pattern 01.mat
+  artifactKey: Guid(224de5a1c3ba5f948af30bd7826e4666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Ground & rocks 01/Ground & rocks pattern 01.mat using Guid(224de5a1c3ba5f948af30bd7826e4666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a842e7d247e65a24c272903e8fd0cd3f') in 0.0374252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.891206 seconds.
+  path: Assets/Ground textures pack/Grass 04/Grass pattern 04.mat
+  artifactKey: Guid(059cceb0ba6e50741bfe6ec2c755d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass 04/Grass pattern 04.mat using Guid(059cceb0ba6e50741bfe6ec2c755d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c31b348e7037ecfc56fec028a04fb613') in 0.0157268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.812519 seconds.
+  path: Assets/Ground textures pack/Ground 02/Ground pattern 02.mat
+  artifactKey: Guid(36508c771463abf43b7135d9539897e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Ground 02/Ground pattern 02.mat using Guid(36508c771463abf43b7135d9539897e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68df07fc1dcc42e4ef3d5ef9e163d88') in 0.0164757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.212751 seconds.
+  path: Assets/Ground textures pack/Ground & weeds/Ground & weeds.mat
+  artifactKey: Guid(5674184a87d87e54ca8047426601a57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Ground & weeds/Ground & weeds.mat using Guid(5674184a87d87e54ca8047426601a57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08e28f047509b265d1dba090b204fc90') in 0.0362336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
