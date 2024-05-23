@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private float jumpPower;
+    [SerializeField] private GameObject gameManager;
     private string timerText;
     private float curTime = 0.0f;
     GUIStyle style = new GUIStyle();
@@ -33,9 +33,10 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("Main");
         }
-        else if (collision.collider.tag == "Bonus")
+        else if (collision.collider.tag == "Bonus" || collision.collider.tag == "Pass")
         {
             Destroy(collision.gameObject);
+            gameManager.GetComponent<UIManager>().ChangeScore(5);
         }
     }
 

@@ -7,6 +7,7 @@ TagManager:
   - Wall
   - Bonus
   - Obstacle
+  - Pass
   layers:
   - Default
   - TransparentFX
