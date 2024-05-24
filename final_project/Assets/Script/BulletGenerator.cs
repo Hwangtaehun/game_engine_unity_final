@@ -11,7 +11,7 @@ public class BulletGenerator : MonoBehaviour
 
     void Start()
     {
-        this.audio = this.gameObject.AddComponent<AudioSource>();
+        this.audio = GetComponent<AudioSource>();
         this.audio.clip = this.ShootSound;
         this.audio.loop = false;
     }

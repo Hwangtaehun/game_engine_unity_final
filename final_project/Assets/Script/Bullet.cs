@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        this.audio = this.gameObject.AddComponent<AudioSource>();
+        this.audio = GetComponent<AudioSource>();
         this.audio.clip = this.explosionSound;
         this.audio.loop = false;
     }
@@ -28,8 +28,8 @@ public class Bullet : MonoBehaviour
         {
             this.audio.Play();
             Destroy(collision.gameObject);
-            GetComponentInChildren<Bomb>().setActiveBool();
             Destroy(gameObject, 1.0f);
+            GetComponentInChildren<Bomb>().setActiveBool();
         }
         else
         {

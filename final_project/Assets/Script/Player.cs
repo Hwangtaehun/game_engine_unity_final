@@ -17,9 +17,8 @@ public class Player : MonoBehaviour
     void Start()
     {
         style.fontSize = 40;
-        style.normal.textColor = Color.white;
         animator = GetComponentInChildren<Animator>();
-        this.audio = this.gameObject.AddComponent<AudioSource>();
+        this.audio = GetComponent<AudioSource>();
         this.audio.clip = this.bonusSound;
         this.audio.loop = false;
     }
