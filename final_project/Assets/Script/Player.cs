@@ -7,7 +7,10 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float jumpPower;
     [SerializeField] private GameObject gameManager;
+    [SerializeField] private AudioClip bonusSound;
+    private new AudioSource audio;
     private string timerText;
+    private Animator animator;
     private float curTime = 0.0f;
     GUIStyle style = new GUIStyle();
 
@@ -15,6 +18,10 @@ public class Player : MonoBehaviour
     {
         style.fontSize = 40;
         style.normal.textColor = Color.white;
+        animator = GetComponentInChildren<Animator>();
+        this.audio = this.gameObject.AddComponent<AudioSource>();
+        this.audio.clip = this.bonusSound;
+        this.audio.loop = false;
     }
 
     void Update()
@@ -25,6 +32,13 @@ public class Player : MonoBehaviour
         {
             GetComponent<Rigidbody>().velocity = new Vector3(0, jumpPower, 0);
         }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            animator.SetBool("Attack", true);
+            GetComponentInChildren<BulletGenerator>().Shooting();
+            Invoke("attackstop", 0.5f);
+        }
     }
 
     void OnCollisionEnter(Collision collision)
@@ -33,9 +47,18 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("Main");
         }
-        else if (collision.collider.tag == "Bonus" || collision.collider.tag == "Pass")
+        else if (collision.collider.tag == "Bonus")
         {
             Destroy(collision.gameObject);
+            gameManager.GetComponent<UIManager>().ChangeScore(5);
+            this.audio.Play();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.tag == "Pass")
+        {
             gameManager.GetComponent<UIManager>().ChangeScore(5);
         }
     }
@@ -45,5 +68,10 @@ public class Player : MonoBehaviour
         string timerText = "½Ã°£ : " + curTime;
         Rect textPos = new Rect(250, 250, 300, 60);
         GUI.Label(textPos, timerText, style);
+    }
+
+    void attackstop()
+    {
+        animator.SetBool("Attack", false);
     }
 }
