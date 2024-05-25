@@ -427,6 +427,17 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/Unity UI Samples/Scripts/ActiveStateToggler.cs"
+"Assets/Unity UI Samples/Scripts/ApplicationManager.cs"
+"Assets/Unity UI Samples/Scripts/ChangeColor.cs"
+"Assets/Unity UI Samples/Scripts/DragMe.cs"
+"Assets/Unity UI Samples/Scripts/DragPanel.cs"
+"Assets/Unity UI Samples/Scripts/DropMe.cs"
+"Assets/Unity UI Samples/Scripts/PanelManager.cs"
+"Assets/Unity UI Samples/Scripts/ResizePanel.cs"
+"Assets/Unity UI Samples/Scripts/ScrollDetailTexture.cs"
+"Assets/Unity UI Samples/Scripts/ShowSliderValue.cs"
+"Assets/Unity UI Samples/Scripts/TiltWindow.cs"
 -langversion:9.0
 
 /deterministic
