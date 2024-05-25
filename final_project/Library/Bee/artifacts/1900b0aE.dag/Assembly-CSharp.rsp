@@ -389,6 +389,7 @@
 "Assets/Script/Bomb.cs"
 "Assets/Script/Bullet.cs"
 "Assets/Script/BulletGenerator.cs"
+"Assets/Script/ButtonManager.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/Spawner.cs"
 "Assets/Script/UIManager.cs"

@@ -38,13 +38,19 @@ public class Player : MonoBehaviour
             GetComponentInChildren<BulletGenerator>().Shooting();
             Invoke("attackstop", 0.5f);
         }
+
+        if (Input.GetMouseButtonDown(2))
+        {
+            gameManager.GetComponent<ButtonManager>().ControllerOption();
+        }
     }
 
     void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "Obstacle" || collision.collider.tag == "Wall")
         {
-            SceneManager.LoadScene("Main");
+            //SceneManager.LoadScene("Play");
+            gameManager.GetComponent<UIManager>().Gameover();
         }
         else if (collision.collider.tag == "Bonus")
         {
@@ -64,13 +70,23 @@ public class Player : MonoBehaviour
 
     void OnGUI()
     {
-        string timerText = "시간 : " + curTime;
-        Rect textPos = new Rect(250, 250, 300, 60);
+        string timerText = "시간 : " + curTime.ToString("F2");
+        Rect textPos = new Rect(350, 250, 300, 60);
         GUI.Label(textPos, timerText, style);
     }
 
     void attackstop()
     {
         animator.SetBool("Attack", false);
+    }
+
+    public float getTime()
+    {
+        return curTime;
+    }
+
+    public void setJump(float jump)
+    {
+        jumpPower = jump;
     }
 }
