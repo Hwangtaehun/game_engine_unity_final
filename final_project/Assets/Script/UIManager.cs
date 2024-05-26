@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
-using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -30,16 +29,22 @@ public class UIManager : MonoBehaviour
     {
         isManual = false;
         isOver = false;
-        isMute = false;
-        masterMixer.SetFloat("BGM", -5);
-        masterMixer.SetFloat("SFX", -10);
+        isMute = GameManager.instance.bMute;
+        bgmSlider.value = GameManager.instance.fBgm;
+        sfxSlider.value = GameManager.instance.fSfx;
+        jumpSlider.value = GameManager.instance.fJump;
+        masterMixer.SetFloat("BGM", GameManager.instance.fBgm);
+        masterMixer.SetFloat("SFX", GameManager.instance.fSfx);
         score = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        text.text = score + "Á¡";
+        if(text != null)
+        {
+            text.text = score + "Á¡";
+        }
 
         if (isOver)
         {
@@ -81,16 +86,13 @@ public class UIManager : MonoBehaviour
     public void SoundOn()
     {
         isMute = false;
+        GameManager.instance.bMute = isMute;
     }
 
     public void SoundOff()
     {
         isMute = true;
-    }
-
-    public void Mainlevel()
-    {
-        SceneManager.LoadScene("Main");
+        GameManager.instance.bMute = isMute;
     }
 
     public void sliderBGMControl()
@@ -105,6 +107,8 @@ public class UIManager : MonoBehaviour
         {
             masterMixer.SetFloat("BGM", sound);
         }
+
+        GameManager.instance.fBgm = sound;
     }
 
     public void sliderSFXControl()
@@ -119,13 +123,20 @@ public class UIManager : MonoBehaviour
         {
             masterMixer.SetFloat("SFX", sound);
         }
+
+        GameManager.instance.fSfx = sound;
     }
 
     public void sliderJumpControl()
     {
         float value = jumpSlider.value;
         value = Mathf.Round(value);
-        player.GetComponent<Player>().setJump(value);
+        GameManager.instance.fJump = value;
+
+        if(player != null)
+        {
+            player.GetComponent<Player>().setJump(value);
+        }
     }
 
     public void Gameover()

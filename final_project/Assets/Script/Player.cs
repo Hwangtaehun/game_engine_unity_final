@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         style.fontSize = 40;
+        jumpPower = GameManager.instance.fJump;
         animator = GetComponentInChildren<Animator>();
         this.audio = GetComponent<AudioSource>();
         this.audio.clip = this.bonusSound;
