@@ -43,7 +43,7 @@ public class UIManager : MonoBehaviour
     {
         if(text != null)
         {
-            text.text = score + "점";
+            text.text = score + " point";
         }
 
         if (isOver)
@@ -51,8 +51,8 @@ public class UIManager : MonoBehaviour
             this.gameObject.GetComponent<ButtonManager>().setOver();
             Time.timeScale = 0;
             gameoverPanel.SetActive(true);
-            gmov_score.text = "점수 " + score + "점";
-            gmov_time.text = "시간 " + player.GetComponent<Player>().getTime().ToString("F2") + "초";
+            gmov_score.text = "score " + score + " point";
+            gmov_time.text = "score " + player.GetComponent<Player>().getTime().ToString("F2") + "s";
         }
 
         if (isMute)

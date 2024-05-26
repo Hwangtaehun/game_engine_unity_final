@@ -1,0 +1,29 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ButtonManager">
+			<method name="ControllerOption"/>
+			<method name="ControllerOption"/>
+			<method name="ControllerOption"/>
+			<method name="Exit"/>
+			<method name="Exit"/>
+			<method name="Play"/>
+			<method name="Play"/>
+		</type>
+		<type fullname="UIManager">
+			<method name="controllerManual"/>
+			<method name="controllerManual"/>
+			<method name="controllerManual"/>
+			<method name="controllerManual"/>
+			<method name="sliderBGMControl"/>
+			<method name="sliderBGMControl"/>
+			<method name="sliderJumpControl"/>
+			<method name="sliderJumpControl"/>
+			<method name="sliderSFXControl"/>
+			<method name="sliderSFXControl"/>
+			<method name="SoundOff"/>
+			<method name="SoundOff"/>
+			<method name="SoundOn"/>
+			<method name="SoundOn"/>
+		</type>
+	</assembly>
+</linker>

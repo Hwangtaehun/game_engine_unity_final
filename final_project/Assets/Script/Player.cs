@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
 
     void OnGUI()
     {
-        string timerText = "½Ã°£ : " + curTime.ToString("F2");
+        string timerText = "time : " + curTime.ToString("F2");
         Rect textPos = new Rect(350, 250, 300, 60);
         GUI.Label(textPos, timerText, style);
     }
