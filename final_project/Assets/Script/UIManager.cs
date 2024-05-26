@@ -11,7 +11,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject soundOff;
     [SerializeField] private GameObject soundOn;
     [SerializeField] private GameObject player;
-    [SerializeField] private GameObject gameover;
+    [SerializeField] private GameObject gameoverPanel;
+    [SerializeField] private GameObject manualPanel;
     [SerializeField] private TMP_Text text;
     [SerializeField] private TMP_Text gmov_score;
     [SerializeField] private TMP_Text gmov_time;
@@ -19,6 +20,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] Slider jumpSlider;
     [SerializeField] Slider bgmSlider;
     [SerializeField] Slider sfxSlider;
+    private bool isManual;
     private bool isOver;
     private bool isMute;
     private int score;
@@ -26,8 +28,11 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isMute = false;
+        isManual = false;
         isOver = false;
+        isMute = false;
+        masterMixer.SetFloat("BGM", -5);
+        masterMixer.SetFloat("SFX", -10);
         score = 0;
     }
 
@@ -40,7 +45,7 @@ public class UIManager : MonoBehaviour
         {
             this.gameObject.GetComponent<ButtonManager>().setOver();
             Time.timeScale = 0;
-            gameover.SetActive(true);
+            gameoverPanel.SetActive(true);
             gmov_score.text = "점수 " + score + "점";
             gmov_time.text = "시간 " + player.GetComponent<Player>().getTime().ToString("F2") + "초";
         }
@@ -56,6 +61,15 @@ public class UIManager : MonoBehaviour
             masterMixer.SetFloat("Master", 0);
             soundOn.SetActive(false);
             soundOff.SetActive(true);
+        }
+
+        if (isManual)
+        {
+            manualPanel.SetActive(true);
+        }
+        else
+        {
+            manualPanel.SetActive(false);
         }
     }
 
@@ -117,5 +131,10 @@ public class UIManager : MonoBehaviour
     public void Gameover()
     {
         isOver = true;
+    }
+
+    public void controllerManual()
+    {
+        isManual = !isManual;
     }
 }
