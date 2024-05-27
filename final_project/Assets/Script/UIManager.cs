@@ -83,15 +83,9 @@ public class UIManager : MonoBehaviour
         score += num;
     }
 
-    public void SoundOn()
+    public void soundControl()
     {
-        isMute = false;
-        GameManager.instance.bMute = isMute;
-    }
-
-    public void SoundOff()
-    {
-        isMute = true;
+        isMute = !isMute;
         GameManager.instance.bMute = isMute;
     }
 
