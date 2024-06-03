@@ -84,10 +84,10 @@ ScriptsOnlyBuild:
     methodName: ControllerOption
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: SoundOn
+    methodName: soundControl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: SoundOff
+    methodName: soundControl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: controllerManual
@@ -120,10 +120,10 @@ ScriptsOnlyBuild:
     methodName: controllerManual
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: SoundOn
+    methodName: soundControl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: SoundOff
+    methodName: soundControl
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: ControllerOption
@@ -231,6 +231,8 @@ ScriptsOnlyBuild:
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 193
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -1464,4 +1466,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Main.unity
   - Assets/Scenes/Play.unity
-  playerPath: D:/Github/game_engine_unity_final/bulid/final_project.exe
+  playerPath: "D:/Github/game_engine_unity_final/\uC2E4\uD589\uD30C\uC77C/final_project.exe"

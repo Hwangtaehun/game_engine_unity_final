@@ -20,10 +20,10 @@
 			<method name="sliderJumpControl"/>
 			<method name="sliderSFXControl"/>
 			<method name="sliderSFXControl"/>
-			<method name="SoundOff"/>
-			<method name="SoundOff"/>
-			<method name="SoundOn"/>
-			<method name="SoundOn"/>
+			<method name="soundControl"/>
+			<method name="soundControl"/>
+			<method name="soundControl"/>
+			<method name="soundControl"/>
 		</type>
 	</assembly>
 </linker>
