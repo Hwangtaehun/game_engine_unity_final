@@ -141,6 +141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
       value: 197
@@ -254,6 +258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_D (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2638746618612365144, guid: b1106981f94008a4f82808bf6e25be14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -315,6 +323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_A
       objectReference: {fileID: 0}
+    - target: {fileID: 7278975151974310386, guid: b238793d2d75a0244bf8c4f7f1b26c1b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -341,6 +353,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -402,6 +418,10 @@ PrefabInstance:
     - target: {fileID: 4368285550263335464, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_CC (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368285550263335464, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8618514432192861688, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
       propertyPath: m_RootOrder
@@ -468,6 +488,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -587,6 +611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -603,6 +631,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -882,6 +914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_K (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5265828684217494607, guid: df55cb774295c244892ea798388c2925, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -971,6 +1007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_AA
       objectReference: {fileID: 0}
+    - target: {fileID: 5070958231727068190, guid: 725d825954b91924ba7a16808caa8d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -993,7 +1033,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &145384215
 MeshCollider:
@@ -1083,6 +1123,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1493849699}
+  - {fileID: 1758595231}
+  - {fileID: 615923758}
+  - {fileID: 941538492}
+  - {fileID: 597942359}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &147891928 stripped
@@ -1154,6 +1198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Sign
       objectReference: {fileID: 0}
+    - target: {fileID: 6692093109190144108, guid: b279452db22e9bf41a8527657878f65a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1223,6 +1271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1239,6 +1291,10 @@ PrefabInstance:
     - target: {fileID: 4368285550263335464, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_CC
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368285550263335464, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8618514432192861688, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
       propertyPath: m_RootOrder
@@ -1455,6 +1511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -1570,6 +1630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1639,6 +1703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1655,6 +1723,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -1761,6 +1833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_K (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5265828684217494607, guid: df55cb774295c244892ea798388c2925, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1821,6 +1897,10 @@ PrefabInstance:
     - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1893,6 +1973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Dori_A
       objectReference: {fileID: 0}
+    - target: {fileID: 5602050884639654823, guid: 3ab92127d7e62df40b5fd82f0d12e8cc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1961,6 +2045,10 @@ PrefabInstance:
     - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_E (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2048,6 +2136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_E (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2064,6 +2156,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -2130,6 +2226,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -2236,6 +2336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_AA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5070958231727068190, guid: 725d825954b91924ba7a16808caa8d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2297,6 +2401,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_K
       objectReference: {fileID: 0}
+    - target: {fileID: 5265828684217494607, guid: df55cb774295c244892ea798388c2925, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2357,6 +2465,10 @@ PrefabInstance:
     - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2424,6 +2536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_D
       objectReference: {fileID: 0}
+    - target: {fileID: 2638746618612365144, guid: b1106981f94008a4f82808bf6e25be14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2440,6 +2556,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -2507,6 +2627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_E (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2872030821429383160, guid: 42e108a2692845f4f829066045c5cb2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7905904868088433676, guid: 42e108a2692845f4f829066045c5cb2f, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -2567,6 +2691,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -2678,6 +2806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2739,6 +2871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2750,15 +2886,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 145384218}
     m_Modifications:
     - target: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_Name
       value: Tree9_3
       objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalScale.y
@@ -2766,19 +2906,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.57
+      value: 3.514
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.50000095
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.903597
+      value: 1.7807194
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2786,15 +2926,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2828,6 +2968,10 @@ PrefabInstance:
     - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_L (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5553437043959531201, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_RootOrder
@@ -2934,6 +3078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Roof_B
       objectReference: {fileID: 0}
+    - target: {fileID: 4886990069286784125, guid: 62f1e815789db3f4392e57dd6f69c72f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3007,6 +3155,10 @@ PrefabInstance:
     - target: {fileID: 8498600251772237851, guid: 03fe721ec01b9a243a05e7376217ca31, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_F (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8498600251772237851, guid: 03fe721ec01b9a243a05e7376217ca31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3173,6 +3325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_M (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4785945717207400295, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_RootOrder
       value: 128
@@ -3241,6 +3397,10 @@ PrefabInstance:
     - target: {fileID: 1151167079129720193, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_BB (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151167079129720193, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8337189324896363287, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
       propertyPath: m_RootOrder
@@ -3321,6 +3481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_M (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4785945717207400295, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_RootOrder
       value: 174
@@ -3389,6 +3553,10 @@ PrefabInstance:
     - target: {fileID: 4368285550263335464, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_CC (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368285550263335464, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8618514432192861688, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
       propertyPath: m_RootOrder
@@ -3500,6 +3668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_D (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2638746618612365144, guid: b1106981f94008a4f82808bf6e25be14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3516,6 +3688,10 @@ PrefabInstance:
     - target: {fileID: 2593720106078060075, guid: 9993bc2b3d2930e4798a358042cd16c3, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Roof_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 2593720106078060075, guid: 9993bc2b3d2930e4798a358042cd16c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5049637101207151593, guid: 9993bc2b3d2930e4798a358042cd16c3, type: 3}
       propertyPath: m_RootOrder
@@ -3769,6 +3945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3785,6 +3965,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -3899,6 +4083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3915,6 +4103,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -4021,6 +4213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_J
       objectReference: {fileID: 0}
+    - target: {fileID: 8368719321286842232, guid: 57bf2a0c77ab8934ebf442761b07d011, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4082,6 +4278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_E (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4118,6 +4318,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -4189,6 +4393,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -4303,6 +4511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_C
       objectReference: {fileID: 0}
+    - target: {fileID: 4375556184546499010, guid: ff54439ee8c1e5f46bc0df8d457fdf2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4377,6 +4589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_E (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4393,6 +4609,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -4454,6 +4674,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -4566,6 +4790,11 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
   m_PrefabInstance: {fileID: 61767698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &597942359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
+  m_PrefabInstance: {fileID: 1641002076}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &612910687
 PrefabInstance:
@@ -4809,11 +5038,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+--- !u!4 &615923758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
+  m_PrefabInstance: {fileID: 345997866}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &616281748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4878,6 +5116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4939,6 +5181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_E
       objectReference: {fileID: 0}
+    - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4955,6 +5201,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -5039,6 +5289,10 @@ PrefabInstance:
     - target: {fileID: 1151167079129720193, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_BB
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151167079129720193, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8337189324896363287, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
       propertyPath: m_RootOrder
@@ -5153,6 +5407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_J (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8368719321286842232, guid: 57bf2a0c77ab8934ebf442761b07d011, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5222,6 +5480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5283,6 +5545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5304,6 +5570,10 @@ PrefabInstance:
     - target: {fileID: 4329617732213295345, guid: fa9348bf0342d6346b7f0c10e4e97e38, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_G
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329617732213295345, guid: fa9348bf0342d6346b7f0c10e4e97e38, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6276951421964398007, guid: fa9348bf0342d6346b7f0c10e4e97e38, type: 3}
       propertyPath: m_RootOrder
@@ -5414,6 +5684,10 @@ PrefabInstance:
     - target: {fileID: 7278975151974310386, guid: b238793d2d75a0244bf8c4f7f1b26c1b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278975151974310386, guid: b238793d2d75a0244bf8c4f7f1b26c1b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5553,6 +5827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5569,6 +5847,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -5638,6 +5920,10 @@ PrefabInstance:
     - target: {fileID: 1151167079129720193, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_BB (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151167079129720193, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8337189324896363287, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
       propertyPath: m_RootOrder
@@ -5709,6 +5995,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -5841,6 +6131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5951,6 +6245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_BB (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1151167079129720193, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8337189324896363287, guid: b3d9f2c647e4bdd48a666eb9c6a65235, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -6056,6 +6354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_E (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6116,6 +6418,10 @@ PrefabInstance:
     - target: {fileID: 8229468595157240007, guid: b7c2d798f30ee474389bfdf94c7a3b89, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Step (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8229468595157240007, guid: b7c2d798f30ee474389bfdf94c7a3b89, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6183,6 +6489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6214,6 +6524,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -6284,6 +6598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_E
       objectReference: {fileID: 0}
+    - target: {fileID: 2872030821429383160, guid: 42e108a2692845f4f829066045c5cb2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7905904868088433676, guid: 42e108a2692845f4f829066045c5cb2f, type: 3}
       propertyPath: m_RootOrder
       value: 94
@@ -6349,6 +6667,10 @@ PrefabInstance:
     - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_M (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4785945717207400295, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_RootOrder
@@ -6419,6 +6741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
       value: 201
@@ -6480,6 +6806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -6540,6 +6870,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -6656,6 +6990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6732,6 +7070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_J (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8368719321286842232, guid: 57bf2a0c77ab8934ebf442761b07d011, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6748,6 +7090,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -6874,6 +7220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_D (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2638746618612365144, guid: b1106981f94008a4f82808bf6e25be14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6890,6 +7240,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -7100,6 +7454,10 @@ PrefabInstance:
     - target: {fileID: 7278975151974310386, guid: b238793d2d75a0244bf8c4f7f1b26c1b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278975151974310386, guid: b238793d2d75a0244bf8c4f7f1b26c1b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7373,6 +7731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_I
       objectReference: {fileID: 0}
+    - target: {fileID: 5633167254361651541, guid: 4af0f89ad18f0a4429ba325e6096c242, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7442,6 +7804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_F (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8498600251772237851, guid: 03fe721ec01b9a243a05e7376217ca31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7468,6 +7834,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -7538,6 +7908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
       value: 173
@@ -7598,6 +7972,10 @@ PrefabInstance:
     - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_L (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5553437043959531201, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_RootOrder
@@ -7757,6 +8135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_K (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5265828684217494607, guid: df55cb774295c244892ea798388c2925, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7817,6 +8199,10 @@ PrefabInstance:
     - target: {fileID: 4375556184546499010, guid: ff54439ee8c1e5f46bc0df8d457fdf2d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375556184546499010, guid: ff54439ee8c1e5f46bc0df8d457fdf2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7886,6 +8272,10 @@ PrefabInstance:
     - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_E (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8156,6 +8546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
       value: 210
@@ -8274,6 +8668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8300,6 +8698,10 @@ PrefabInstance:
     - target: {fileID: 4329617732213295345, guid: fa9348bf0342d6346b7f0c10e4e97e38, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_G (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4329617732213295345, guid: fa9348bf0342d6346b7f0c10e4e97e38, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6276951421964398007, guid: fa9348bf0342d6346b7f0c10e4e97e38, type: 3}
       propertyPath: m_RootOrder
@@ -8411,6 +8813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8432,6 +8838,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -8543,6 +8953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7278975151974310386, guid: b238793d2d75a0244bf8c4f7f1b26c1b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8604,6 +9018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8620,6 +9038,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -8670,6 +9092,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+--- !u!4 &941538492 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
+  m_PrefabInstance: {fileID: 1727694040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &944253392 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8618514432192861688, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
@@ -8691,6 +9118,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -8797,6 +9228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_K (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5265828684217494607, guid: df55cb774295c244892ea798388c2925, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8818,6 +9253,10 @@ PrefabInstance:
     - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_M (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4785945717207400295, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_RootOrder
@@ -8884,6 +9323,10 @@ PrefabInstance:
     - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_M (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4785945717207400295, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_RootOrder
@@ -9123,6 +9566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9144,6 +9591,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -9220,6 +9671,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -9361,6 +9816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9377,6 +9836,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -9595,6 +10058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -9708,6 +10175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9745,6 +10216,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -9830,6 +10305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -9900,6 +10379,10 @@ PrefabInstance:
     - target: {fileID: 918103628045538815, guid: 45d8fb04f5878194a80e616bc36ba5a6, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Bang_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 918103628045538815, guid: 45d8fb04f5878194a80e616bc36ba5a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6446792938481264064, guid: 45d8fb04f5878194a80e616bc36ba5a6, type: 3}
       propertyPath: m_RootOrder
@@ -10005,6 +10488,10 @@ PrefabInstance:
     - target: {fileID: 3924471407894448687, guid: 8af1514df0be97d43bb70f571498eae1, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924471407894448687, guid: 8af1514df0be97d43bb70f571498eae1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10213,6 +10700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10239,6 +10730,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -10306,6 +10801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Dori_C
       objectReference: {fileID: 0}
+    - target: {fileID: 1991777505643379493, guid: 5788de3fa728a67449ae771824d7d117, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8320906712680369750, guid: 5788de3fa728a67449ae771824d7d117, type: 3}
       propertyPath: m_RootOrder
       value: 115
@@ -10366,6 +10865,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -10480,6 +10983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10540,6 +11047,10 @@ PrefabInstance:
     - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10627,6 +11138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6991089954177759379, guid: 94a2b9128e4211e42bc9cadebe0124c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10643,6 +11158,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -10887,6 +11406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10908,6 +11431,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -11108,6 +11635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -11187,6 +11718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Bang_B
       objectReference: {fileID: 0}
+    - target: {fileID: 5458342732188967234, guid: 8ddac04a25a871d4cb7e453aa70decc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9117513174649915813, guid: 8ddac04a25a871d4cb7e453aa70decc8, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -11258,6 +11793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
       value: 221
@@ -11318,6 +11857,10 @@ PrefabInstance:
     - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_M (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4785945717207400295, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_RootOrder
@@ -11439,6 +11982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11455,6 +12002,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -11527,6 +12078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
       value: 133
@@ -11587,6 +12142,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -11703,6 +12262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11734,6 +12297,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -11795,6 +12362,10 @@ PrefabInstance:
     - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_L (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5553437043959531201, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_RootOrder
@@ -11909,6 +12480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11925,6 +12500,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -12031,6 +12610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_K (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5265828684217494607, guid: df55cb774295c244892ea798388c2925, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12105,6 +12688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12116,15 +12703,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 145384218}
     m_Modifications:
     - target: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_Name
       value: Tree9_2
       objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalScale.y
@@ -12132,19 +12723,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.716637
+      value: -2.7433274
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.50000095
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.8784485
+      value: 1.3756897
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12152,15 +12743,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12244,6 +12835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Roof_C
       objectReference: {fileID: 0}
+    - target: {fileID: 7194737150582969692, guid: 9391eeb146b199346aa7b7217577d300, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12260,6 +12855,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -12519,6 +13118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -12644,6 +13247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12704,6 +13311,10 @@ PrefabInstance:
     - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12781,6 +13392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12854,6 +13469,10 @@ PrefabInstance:
     - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12941,6 +13560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Step
       objectReference: {fileID: 0}
+    - target: {fileID: 8229468595157240007, guid: b7c2d798f30ee474389bfdf94c7a3b89, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12970,7 +13593,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1493849699
 Transform:
@@ -13223,6 +13846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -13328,6 +13955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13344,6 +13975,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -13411,6 +14046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_D (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1655316194802912689, guid: 2561fefb09d1d5c4683fdf9095d485ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3598250320888556364, guid: 2561fefb09d1d5c4683fdf9095d485ff, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -13477,6 +14116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B
       objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -13542,6 +14185,10 @@ PrefabInstance:
     - target: {fileID: 6232909530168853174, guid: 3e808ce1225aa33458a35f05261bac31, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_H
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232909530168853174, guid: 3e808ce1225aa33458a35f05261bac31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6377715562394658186, guid: 3e808ce1225aa33458a35f05261bac31, type: 3}
       propertyPath: m_RootOrder
@@ -13618,6 +14265,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -13712,6 +14363,10 @@ PrefabInstance:
     - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_L (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5553437043959531201, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_RootOrder
@@ -13838,6 +14493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13904,6 +14563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13920,6 +14583,10 @@ PrefabInstance:
     - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_L (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5553437043959531201, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_RootOrder
@@ -14044,6 +14711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_E (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4816089676071327983, guid: 915787932bc751f41ab9133489048fa7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14105,6 +14776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_B
       objectReference: {fileID: 0}
+    - target: {fileID: 6991089954177759379, guid: 94a2b9128e4211e42bc9cadebe0124c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14121,15 +14796,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 145384218}
     m_Modifications:
     - target: {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_Name
       value: Tree9_5
       objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalScale.y
@@ -14137,19 +14816,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.38
+      value: 2.8760002
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.59
+      value: 1.718
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14157,15 +14836,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14252,6 +14931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14313,6 +14996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_I (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5633167254361651541, guid: 4af0f89ad18f0a4429ba325e6096c242, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14334,6 +15021,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -14440,6 +15131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Step (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8229468595157240007, guid: b7c2d798f30ee474389bfdf94c7a3b89, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14505,6 +15200,10 @@ PrefabInstance:
     - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14572,6 +15271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_J (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8368719321286842232, guid: 57bf2a0c77ab8934ebf442761b07d011, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14588,6 +15291,10 @@ PrefabInstance:
     - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_L
+      objectReference: {fileID: 0}
+    - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5553437043959531201, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_RootOrder
@@ -14665,6 +15372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
       value: 95
@@ -14725,6 +15436,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -14791,6 +15506,10 @@ PrefabInstance:
     - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_M (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4785945717207400295, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_RootOrder
@@ -14905,6 +15624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Bang_C
       objectReference: {fileID: 0}
+    - target: {fileID: 4022534126644465524, guid: 8e72050f81285cc429bb175c1fd0fe45, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14981,6 +15704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14992,15 +15719,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 145384218}
     m_Modifications:
     - target: {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_Name
       value: Tree9_4
       objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalScale.y
@@ -15008,19 +15739,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.38
+      value: -3.076
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.49999905
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.049631
+      value: 1.2099262
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15028,15 +15759,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15085,6 +15816,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -15191,6 +15926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15251,6 +15990,10 @@ PrefabInstance:
     - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15313,11 +16056,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+--- !u!4 &1758595231 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+  m_PrefabInstance: {fileID: 1385503069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1762260411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2485531925734812098, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
@@ -15334,6 +16086,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -15395,6 +16151,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -15464,6 +16224,10 @@ PrefabInstance:
     - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
@@ -15541,6 +16305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C
       objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
       value: 184
@@ -15611,6 +16379,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -15722,6 +16494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_K (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5265828684217494607, guid: df55cb774295c244892ea798388c2925, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15748,6 +16524,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -15854,6 +16634,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15915,6 +16699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15931,6 +16719,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -16022,6 +16814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -16087,6 +16883,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -16198,6 +16998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_K (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5265828684217494607, guid: df55cb774295c244892ea798388c2925, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16214,6 +17018,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -16419,6 +17227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_CC (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4368285550263335464, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8618514432192861688, guid: 574c14b674519924cbec1fe0cd8864ec, type: 3}
       propertyPath: m_RootOrder
       value: 116
@@ -16542,6 +17354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Step (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8229468595157240007, guid: b7c2d798f30ee474389bfdf94c7a3b89, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16608,6 +17424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Step (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8229468595157240007, guid: b7c2d798f30ee474389bfdf94c7a3b89, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16624,6 +17444,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -16710,6 +17534,10 @@ PrefabInstance:
     - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_L (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5553437043959531201, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_RootOrder
@@ -16821,6 +17649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_F (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8498600251772237851, guid: 03fe721ec01b9a243a05e7376217ca31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16842,6 +17674,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -17107,6 +17943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_A (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5234170611843666759, guid: 3971ea69cf9cdcc499cebb7acffbf870, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17181,6 +18021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_AA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5070958231727068190, guid: 725d825954b91924ba7a16808caa8d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17197,6 +18041,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -17313,6 +18161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17374,6 +18226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_AA (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5070958231727068190, guid: 725d825954b91924ba7a16808caa8d0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17390,6 +18246,10 @@ PrefabInstance:
     - target: {fileID: 1655316194802912689, guid: 2561fefb09d1d5c4683fdf9095d485ff, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_D
+      objectReference: {fileID: 0}
+    - target: {fileID: 1655316194802912689, guid: 2561fefb09d1d5c4683fdf9095d485ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3598250320888556364, guid: 2561fefb09d1d5c4683fdf9095d485ff, type: 3}
       propertyPath: m_RootOrder
@@ -17496,6 +18356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Dori_B
       objectReference: {fileID: 0}
+    - target: {fileID: 5539632569766662691, guid: 48d48742f797ab94fa6d1cadf55b4e48, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17517,6 +18381,10 @@ PrefabInstance:
     - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_M
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687028075316012421, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4785945717207400295, guid: a6eeccdf93f300e479d7ab4022e06954, type: 3}
       propertyPath: m_RootOrder
@@ -17579,6 +18447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -17639,6 +18511,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -17710,6 +18586,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -17816,6 +18696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17832,6 +18716,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -17893,6 +18781,10 @@ PrefabInstance:
     - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_C (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 116796602072343911, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4376240825000884374, guid: 4b2bcfafe2bd17241accfc01f67b0f2b, type: 3}
       propertyPath: m_RootOrder
@@ -17965,6 +18857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_L (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 553203039865372929, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5553437043959531201, guid: ed49396e55beec84aaa1261f3f5c550f, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -18030,6 +18926,10 @@ PrefabInstance:
     - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
@@ -18200,6 +19100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_C (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2532258950203372015, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3067943625040292347, guid: 6a380eb7ed2eb8647be561052a33c2ca, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -18305,6 +19209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Stone (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8248180161467305646, guid: a7e6c1e6a88632048bb6a68631489197, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18365,6 +19273,10 @@ PrefabInstance:
     - target: {fileID: 8498600251772237851, guid: 03fe721ec01b9a243a05e7376217ca31, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Wall_F
+      objectReference: {fileID: 0}
+    - target: {fileID: 8498600251772237851, guid: 03fe721ec01b9a243a05e7376217ca31, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18437,6 +19349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Step (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8229468595157240007, guid: b7c2d798f30ee474389bfdf94c7a3b89, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18453,6 +19369,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -18533,6 +19453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Pillar_B (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6552657983562083669, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6586143680388732115, guid: 400f926548fcd4f40b2bb2cc70c96a71, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -18599,6 +19523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
       value: 220
@@ -18660,6 +19588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Geumsan_Mi_kidan
       objectReference: {fileID: 0}
+    - target: {fileID: 71278237949368542, guid: 130665a96403b634b902e540462c3bc1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 313692264047600131, guid: 130665a96403b634b902e540462c3bc1, type: 3}
       propertyPath: m_RootOrder
       value: 156
@@ -18720,6 +19652,10 @@ PrefabInstance:
     - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_Name
       value: SM_Geumsan_Mi_Gongpo_B (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1929509155789183683, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8029113682550161746, guid: a9d983cf7a1f3c3468e11873259f229d, type: 3}
       propertyPath: m_RootOrder
@@ -18973,7 +19909,3 @@ SceneRoots:
   - {fileID: 663906382}
   - {fileID: 115338385}
   - {fileID: 592430305}
-  - {fileID: 1385503069}
-  - {fileID: 345997866}
-  - {fileID: 1727694040}
-  - {fileID: 1641002076}
