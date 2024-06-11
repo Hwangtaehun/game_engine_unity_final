@@ -52,7 +52,7 @@ public class UIManager : MonoBehaviour
             Time.timeScale = 0;
             gameoverPanel.SetActive(true);
             gmov_score.text = "score " + score + " point";
-            gmov_time.text = "score " + player.GetComponent<Player>().getTime().ToString("F2") + "s";
+            gmov_time.text = "time " + player.GetComponent<Player>().getTime().ToString("F2") + "s";
         }
 
         if (isMute)
