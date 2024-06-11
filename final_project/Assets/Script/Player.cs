@@ -2,31 +2,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
     [SerializeField] private float jumpPower;
+    [SerializeField] private TMP_Text timeText;
     [SerializeField] private GameObject gameManager;
     [SerializeField] private AudioClip bonusSound;
+    private Camera m_camera;
     private new AudioSource audio;
-    private string timerText;
     private Animator animator;
     private float curTime = 0.0f;
-    GUIStyle style = new GUIStyle();
 
     void Start()
     {
-        style.fontSize = 40;
+        m_camera = Camera.main;
         jumpPower = GameManager.instance.fJump;
         animator = GetComponentInChildren<Animator>();
         this.audio = GetComponent<AudioSource>();
         this.audio.clip = this.bonusSound;
         this.audio.loop = false;
+        timeText.transform.position = transform.position;
     }
 
     void Update()
     {
         curTime += Time.deltaTime;
+        timeText.text = "time : " + curTime.ToString("F2");
+        timeText.transform.position = m_camera.WorldToScreenPoint(transform.position + new Vector3(0, 2.0f, 0));
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -67,13 +71,6 @@ public class Player : MonoBehaviour
         {
             gameManager.GetComponent<UIManager>().ChangeScore(5);
         }
-    }
-
-    void OnGUI()
-    {
-        string timerText = "time : " + curTime.ToString("F2");
-        Rect textPos = new Rect(350, 250, 300, 60);
-        GUI.Label(textPos, timerText, style);
     }
 
     void attackstop()
