@@ -80,14 +80,14 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: soundControl
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: soundControl
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: ControllerOption
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: soundControl
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: soundControl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: controllerManual
@@ -117,13 +117,13 @@ ScriptsOnlyBuild:
     methodName: controllerManual
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
+    methodName: soundControl
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: soundControl
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
     methodName: controllerManual
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: soundControl
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: soundControl
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: ControllerOption
@@ -165,8 +165,6 @@ ScriptsOnlyBuild:
     - Class: 49
       Script: {instanceID: 0}
     - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -230,6 +228,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 193
@@ -237,6 +239,8 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -249,6 +253,8 @@ ScriptsOnlyBuild:
     - Class: 243
       Script: {instanceID: 0}
     - Class: 245
+      Script: {instanceID: 0}
+    - Class: 1953259897
       Script: {instanceID: 0}
     Assets/Scenes/Play.unity:
     - Class: 1
@@ -270,8 +276,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -339,11 +343,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 193
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -356,6 +368,8 @@ ScriptsOnlyBuild:
     - Class: 243
       Script: {instanceID: 0}
     - Class: 245
+      Script: {instanceID: 0}
+    - Class: 1953259897
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1326,7 +1340,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 0c40448c785dc480a05f821f6b315cd6
+      Hash: 3fb5e00d1dce68a42ad5e22a2dc4400f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player

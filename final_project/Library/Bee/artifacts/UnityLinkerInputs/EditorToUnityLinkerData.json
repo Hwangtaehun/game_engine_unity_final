@@ -570,16 +570,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshCollider",
-            "fullManagedTypeName": "UnityEngine.MeshCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/Main.unity",
-                "Assets/Scenes/Play.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "MeshFilter",
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
@@ -734,6 +724,46 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Terrain",
+            "fullManagedTypeName": "UnityEngine.Terrain",
+            "moduleName": "Terrain",
+            "usedInScenes": [
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/Play.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TerrainCollider",
+            "fullManagedTypeName": "UnityEngine.TerrainCollider",
+            "moduleName": "TerrainPhysics",
+            "usedInScenes": [
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/Play.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TerrainData",
+            "fullManagedTypeName": "UnityEngine.TerrainData",
+            "moduleName": "Terrain",
+            "usedInScenes": [
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/Play.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TerrainLayer",
+            "fullManagedTypeName": "UnityEngine.TerrainLayer",
+            "moduleName": "Terrain",
+            "usedInScenes": [
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/Play.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "TextAsset",
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
@@ -778,7 +808,8 @@
             "fullManagedTypeName": "UnityEngine.Tree",
             "moduleName": "Terrain",
             "usedInScenes": [
-                "Assets/Scenes/Main.unity"
+                "Assets/Scenes/Main.unity",
+                "Assets/Scenes/Play.unity"
             ]
         },
         {
