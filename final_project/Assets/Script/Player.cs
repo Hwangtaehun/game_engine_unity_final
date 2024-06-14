@@ -48,12 +48,12 @@ public class Player : MonoBehaviour
         }
         else
         {
-            if (Input.GetKey(KeySetting.keys[KeyAction.JUMP]))
+            if (Input.GetKeyDown(KeySetting.keys[KeyAction.JUMP]))
             {
                 GetComponent<Rigidbody>().velocity = new Vector3(0, jumpPower, 0);
             }
 
-            if (Input.GetKey(KeySetting.keys[KeyAction.ATTACK]))
+            if (Input.GetKeyDown(KeySetting.keys[KeyAction.ATTACK]))
             {
                 animator.SetBool("Attack", true);
                 GetComponentInChildren<BulletGenerator>().Shooting();
