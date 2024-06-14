@@ -24,12 +24,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -44,6 +38,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -74,32 +70,43 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
+    fullTypeName: ButtonManager
+    methodName: ControllerOption
+  - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: soundControl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: soundControl
   - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: viewManual
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: ControllerOption
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: controllerManual
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonManager
-    methodName: ControllerOption
+    methodName: viewKey
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: sliderJumpControl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: controllerManual
+    methodName: viewManual
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: Play
@@ -114,7 +121,19 @@ ScriptsOnlyBuild:
     methodName: Exit
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: controllerManual
+    methodName: viewKey
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: mouseToggleControl
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: viewManual
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: soundControl
@@ -123,10 +142,13 @@ ScriptsOnlyBuild:
     methodName: soundControl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: controllerManual
+    methodName: viewManual
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: ControllerOption
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: viewKey
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: Play
@@ -142,6 +164,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: Exit
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: mouseToggleControl
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: viewKey
   sceneClasses:
     Assets/Scenes/Main.unity:
     - Class: 1
@@ -207,6 +235,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 26586}
     - Class: 114
+      Script: {instanceID: 27934}
+    - Class: 114
       Script: {instanceID: 28312}
     - Class: 114
       Script: {instanceID: 28380}
@@ -220,6 +250,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 29344}
     - Class: 114
       Script: {instanceID: 29544}
+    - Class: 114
+      Script: {instanceID: 30002}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -324,6 +356,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 27820}
     - Class: 114
+      Script: {instanceID: 27934}
+    - Class: 114
       Script: {instanceID: 28312}
     - Class: 114
       Script: {instanceID: 28388}
@@ -335,6 +369,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 29544}
     - Class: 114
       Script: {instanceID: 29574}
+    - Class: 114
+      Script: {instanceID: 30002}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -662,7 +698,7 @@ ScriptsOnlyBuild:
     className: DragPanel
   - hash:
       serializedVersion: 2
-      Hash: 80f8d8807eef1a903566b4dfa41cb7f2
+      Hash: fd6beb0ecf4594e2aacbee14501070e6
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIManager
@@ -1124,7 +1160,7 @@ ScriptsOnlyBuild:
     className: AnimatorMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 38bd14eec6e30d50acdf982271383219
+      Hash: 5bf3da77290b84d0a100cdc8f6fa8f9f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager

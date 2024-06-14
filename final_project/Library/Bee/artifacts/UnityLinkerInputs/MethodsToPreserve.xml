@@ -10,10 +10,12 @@
 			<method name="Play"/>
 		</type>
 		<type fullname="UIManager">
-			<method name="controllerManual"/>
-			<method name="controllerManual"/>
-			<method name="controllerManual"/>
-			<method name="controllerManual"/>
+			<method name="ChangeKey"/>
+			<method name="ChangeKey"/>
+			<method name="ChangeKey"/>
+			<method name="ChangeKey"/>
+			<method name="mouseToggleControl"/>
+			<method name="mouseToggleControl"/>
 			<method name="sliderBGMControl"/>
 			<method name="sliderBGMControl"/>
 			<method name="sliderJumpControl"/>
@@ -24,6 +26,14 @@
 			<method name="soundControl"/>
 			<method name="soundControl"/>
 			<method name="soundControl"/>
+			<method name="viewKey"/>
+			<method name="viewKey"/>
+			<method name="viewKey"/>
+			<method name="viewKey"/>
+			<method name="viewManual"/>
+			<method name="viewManual"/>
+			<method name="viewManual"/>
+			<method name="viewManual"/>
 		</type>
 	</assembly>
 </linker>
