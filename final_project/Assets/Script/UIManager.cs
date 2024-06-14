@@ -12,21 +12,28 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject gameoverPanel;
     [SerializeField] private GameObject manualPanel;
+    [SerializeField] private GameObject keyPanel;
+    [SerializeField] private GameObject keyObject;
     [SerializeField] private TMP_Text text;
     [SerializeField] private TMP_Text gmov_score;
     [SerializeField] private TMP_Text gmov_time;
+    [SerializeField] private Text[] keyText;
+    [SerializeField] private Toggle tmouse;
     [SerializeField] AudioMixer masterMixer;
     [SerializeField] Slider jumpSlider;
     [SerializeField] Slider bgmSlider;
     [SerializeField] Slider sfxSlider;
     private bool isManual;
+    private bool isKey;
     private bool isOver;
     private bool isMute;
     private int score;
+    private int key = -1;
 
     // Start is called before the first frame update
     void Start()
     {
+        KeyPanelObjectController();
         isManual = false;
         isOver = false;
         isMute = GameManager.instance.bMute;
@@ -76,6 +83,40 @@ public class UIManager : MonoBehaviour
         {
             manualPanel.SetActive(false);
         }
+
+        if (isKey)
+        {
+            keyPanel.SetActive(true);
+        }
+        else
+        {
+            keyPanel.SetActive(false);
+        }
+
+        for (int i = 0; i < keyText.Length; i++)
+        {
+            keyText[i].text = KeySetting.keys[(KeyAction)i].ToString();
+        }
+    }
+
+    void OnGUI()
+    {
+        Event keyEvnet = Event.current;
+        if (keyEvnet.isKey)
+        {
+            KeySetting.keys[(KeyAction)key] = keyEvnet.keyCode;
+        }
+    }
+
+    void KeyPanelObjectController()
+    {
+        tmouse.isOn = GameManager.instance.bMouse;
+        keyObject.SetActive(!GameManager.instance.bMouse);
+    }
+
+    public void ChangeKey(int num)
+    {
+        key = num;
     }
 
     public void ChangeScore(int num)
@@ -138,8 +179,19 @@ public class UIManager : MonoBehaviour
         isOver = true;
     }
 
-    public void controllerManual()
+    public void viewManual()
     {
         isManual = !isManual;
+    }
+
+    public void viewKey()
+    {
+        isKey = !isKey;
+    }
+
+    public void mouseToggleControl()
+    {
+        GameManager.instance.bMouse = tmouse.isOn;
+        KeyPanelObjectController();
     }
 }

@@ -32,17 +32,35 @@ public class Player : MonoBehaviour
         timeText.text = "time : " + curTime.ToString("F2");
         timeText.transform.position = m_camera.WorldToScreenPoint(transform.position + new Vector3(0, 2.0f, 0));
 
-        if (Input.GetMouseButtonDown(0))
+        if (GameManager.instance.bMouse)
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, jumpPower, 0);
-        }
+            if (Input.GetMouseButtonDown(0))
+            {
+                GetComponent<Rigidbody>().velocity = new Vector3(0, jumpPower, 0);
+            }
 
-        if (Input.GetMouseButtonDown(1))
-        {
-            animator.SetBool("Attack", true);
-            GetComponentInChildren<BulletGenerator>().Shooting();
-            Invoke("attackstop", 0.5f);
+            if (Input.GetMouseButtonDown(1))
+            {
+                animator.SetBool("Attack", true);
+                GetComponentInChildren<BulletGenerator>().Shooting();
+                Invoke("attackstop", 0.5f);
+            }
         }
+        else
+        {
+            if (Input.GetKey(KeySetting.keys[KeyAction.JUMP]))
+            {
+                GetComponent<Rigidbody>().velocity = new Vector3(0, jumpPower, 0);
+            }
+
+            if (Input.GetKey(KeySetting.keys[KeyAction.ATTACK]))
+            {
+                animator.SetBool("Attack", true);
+                GetComponentInChildren<BulletGenerator>().Shooting();
+                Invoke("attackstop", 0.5f);
+            }
+        }
+        
 
         if (Input.GetMouseButtonDown(2))
         {
