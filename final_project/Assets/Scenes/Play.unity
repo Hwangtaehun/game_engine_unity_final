@@ -2042,6 +2042,7 @@ MonoBehaviour:
   - {fileID: 1962368052}
   - {fileID: 1962368051}
   tmouse: {fileID: 1962368050}
+  tkey: {fileID: 1962368049}
   masterMixer: {fileID: 24100000, guid: 1a874d0d8724d7d4ba3bae5368147272, type: 2}
   jumpSlider: {fileID: 1405238806}
   bgmSlider: {fileID: 1869289489}
@@ -72349,6 +72350,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 186100190}
     m_Modifications:
+    - target: {fileID: 2388901039468400232, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388901039468400232, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388901039468400232, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 57146255}
+    - target: {fileID: 2388901039468400232, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388901039468400232, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: keyToggleContorl
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388901039468400232, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388901039468400232, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3786440379152189121, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -72566,6 +72595,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5574797698648651797, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
   m_PrefabInstance: {fileID: 1962368047}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1962368049 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2388901039468400232, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}
+  m_PrefabInstance: {fileID: 1962368047}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1962368050 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4392226101436844808, guid: 6b871e1c263c03d4fa788eb77d3ffec0, type: 3}

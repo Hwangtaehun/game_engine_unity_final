@@ -37,3 +37,4 @@ public class GameManager : MonoBehaviour
 }
 
 //출처: https://ljhyunstory.tistory.com/282 [오늘도 열시미!:티스토리]
+//키세팅 출처: https://www.youtube.com/watch?v=ODB3IOFqmrE

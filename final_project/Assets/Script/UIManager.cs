@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text gmov_time;
     [SerializeField] private Text[] keyText;
     [SerializeField] private Toggle tmouse;
+    [SerializeField] private Toggle tkey;
     [SerializeField] AudioMixer masterMixer;
     [SerializeField] Slider jumpSlider;
     [SerializeField] Slider bgmSlider;
@@ -111,6 +112,7 @@ public class UIManager : MonoBehaviour
     void KeyPanelObjectController()
     {
         tmouse.isOn = GameManager.instance.bMouse;
+        tkey.isOn = !GameManager.instance.bMouse;
         keyObject.SetActive(!GameManager.instance.bMouse);
     }
 
@@ -192,6 +194,12 @@ public class UIManager : MonoBehaviour
     public void mouseToggleControl()
     {
         GameManager.instance.bMouse = tmouse.isOn;
+        KeyPanelObjectController();
+    }
+
+    public void keyToggleContorl()
+    {
+        GameManager.instance.bMouse = !tkey.isOn;
         KeyPanelObjectController();
     }
 }
