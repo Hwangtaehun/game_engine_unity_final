@@ -393,6 +393,7 @@
 "Assets/Script/GameManager.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/Spawner.cs"
+"Assets/Script/TextManager.cs"
 "Assets/Script/UIManager.cs"
 "Assets/Script/Wall.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
