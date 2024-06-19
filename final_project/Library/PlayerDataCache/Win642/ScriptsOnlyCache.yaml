@@ -29,8 +29,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -144,18 +146,6 @@ ScriptsOnlyBuild:
     methodName: mouseToggleControl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: ChangeKey
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: ChangeKey
-  - assembly: Assembly-CSharp
-    fullTypeName: TextManager
-    methodName: ToggleController
-  - assembly: Assembly-CSharp
-    fullTypeName: TextManager
-    methodName: ToggleController
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
     methodName: viewManual
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
@@ -166,6 +156,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: viewManual
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: TextManager
+    methodName: ToggleController
+  - assembly: Assembly-CSharp
+    fullTypeName: TextManager
+    methodName: ToggleController
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: ControllerOption
@@ -233,6 +235,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 24488}
+    - Class: 114
       Script: {instanceID: 24718}
     - Class: 114
       Script: {instanceID: 25768}
@@ -244,6 +248,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 27076}
     - Class: 114
       Script: {instanceID: 28742}
+    - Class: 114
+      Script: {instanceID: 29552}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -995,7 +1001,7 @@ ScriptsOnlyBuild:
     className: WarpTextExample
   - hash:
       serializedVersion: 2
-      Hash: 7ebfdfb825eac8a823439dd906f60d73
+      Hash: 4e8ea0f0cd5ec2c3090a091f8084804e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LoadingSceneController
