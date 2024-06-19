@@ -5,8 +5,10 @@
 		<type fullname="BulletGenerator" preserve="nothing"/>
 		<type fullname="ButtonManager" preserve="nothing"/>
 		<type fullname="GameManager" preserve="nothing"/>
+		<type fullname="LoadingSceneController" preserve="nothing"/>
 		<type fullname="Player" preserve="nothing"/>
 		<type fullname="Spawner" preserve="nothing"/>
+		<type fullname="TextManager" preserve="nothing"/>
 		<type fullname="UIManager" preserve="nothing"/>
 		<type fullname="Wall" preserve="nothing"/>
 	</assembly>

@@ -391,6 +391,7 @@
 "Assets/Script/BulletGenerator.cs"
 "Assets/Script/ButtonManager.cs"
 "Assets/Script/GameManager.cs"
+"Assets/Script/LoadingSceneController.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/Spawner.cs"
 "Assets/Script/TextManager.cs"

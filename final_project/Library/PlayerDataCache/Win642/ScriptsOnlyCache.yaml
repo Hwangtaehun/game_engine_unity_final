@@ -6,8 +6,10 @@ ScriptsOnlyBuild:
     - BulletGenerator
     - ButtonManager
     - GameManager
+    - LoadingSceneController
     - Player
     - Spawner
+    - TextManager
     - UIManager
     - Wall
     Unity.Rider.Editor.dll:
@@ -24,6 +26,12 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -78,6 +86,18 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: ChangeKey
+  - assembly: Assembly-CSharp
+    fullTypeName: TextManager
+    methodName: ToggleController
+  - assembly: Assembly-CSharp
+    fullTypeName: TextManager
+    methodName: ToggleController
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: ControllerOption
   - assembly: Assembly-CSharp
@@ -86,12 +106,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: soundControl
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: ChangeKey
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: ChangeKey
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: viewManual
@@ -122,6 +136,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: viewKey
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: keyToggleContorl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: mouseToggleControl
@@ -132,6 +149,12 @@ ScriptsOnlyBuild:
     fullTypeName: UIManager
     methodName: ChangeKey
   - assembly: Assembly-CSharp
+    fullTypeName: TextManager
+    methodName: ToggleController
+  - assembly: Assembly-CSharp
+    fullTypeName: TextManager
+    methodName: ToggleController
+  - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: viewManual
   - assembly: Assembly-CSharp
@@ -151,7 +174,7 @@ ScriptsOnlyBuild:
     methodName: viewKey
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
-    methodName: Play
+    methodName: Restart
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: sliderJumpControl
@@ -164,6 +187,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonManager
     methodName: Exit
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: keyToggleContorl
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: mouseToggleControl
@@ -171,6 +197,69 @@ ScriptsOnlyBuild:
     fullTypeName: UIManager
     methodName: viewKey
   sceneClasses:
+    Assets/Scenes/Load.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 24718}
+    - Class: 114
+      Script: {instanceID: 25768}
+    - Class: 114
+      Script: {instanceID: 26194}
+    - Class: 114
+      Script: {instanceID: 26388}
+    - Class: 114
+      Script: {instanceID: 27076}
+    - Class: 114
+      Script: {instanceID: 28742}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Main.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -217,41 +306,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17846}
     - Class: 114
-      Script: {instanceID: 24484}
+      Script: {instanceID: 24488}
     - Class: 114
-      Script: {instanceID: 24714}
+      Script: {instanceID: 24718}
     - Class: 114
-      Script: {instanceID: 25160}
+      Script: {instanceID: 25164}
     - Class: 114
-      Script: {instanceID: 25588}
+      Script: {instanceID: 25592}
     - Class: 114
-      Script: {instanceID: 25764}
+      Script: {instanceID: 25768}
     - Class: 114
-      Script: {instanceID: 25826}
+      Script: {instanceID: 25830}
     - Class: 114
-      Script: {instanceID: 26190}
+      Script: {instanceID: 26194}
     - Class: 114
-      Script: {instanceID: 26382}
+      Script: {instanceID: 26326}
     - Class: 114
-      Script: {instanceID: 26586}
+      Script: {instanceID: 26388}
     - Class: 114
-      Script: {instanceID: 27934}
+      Script: {instanceID: 26592}
     - Class: 114
-      Script: {instanceID: 28312}
+      Script: {instanceID: 27942}
     - Class: 114
-      Script: {instanceID: 28380}
+      Script: {instanceID: 28320}
     - Class: 114
-      Script: {instanceID: 28506}
+      Script: {instanceID: 28388}
     - Class: 114
-      Script: {instanceID: 28650}
+      Script: {instanceID: 28514}
     - Class: 114
-      Script: {instanceID: 28734}
+      Script: {instanceID: 28658}
     - Class: 114
-      Script: {instanceID: 29344}
+      Script: {instanceID: 28742}
     - Class: 114
-      Script: {instanceID: 29544}
+      Script: {instanceID: 29352}
     - Class: 114
-      Script: {instanceID: 30002}
+      Script: {instanceID: 29552}
+    - Class: 114
+      Script: {instanceID: 30010}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -332,45 +423,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 24374}
+      Script: {instanceID: 24378}
     - Class: 114
-      Script: {instanceID: 24484}
+      Script: {instanceID: 24488}
     - Class: 114
-      Script: {instanceID: 24714}
+      Script: {instanceID: 24718}
     - Class: 114
-      Script: {instanceID: 25030}
+      Script: {instanceID: 25034}
     - Class: 114
-      Script: {instanceID: 25588}
+      Script: {instanceID: 25592}
     - Class: 114
-      Script: {instanceID: 25764}
+      Script: {instanceID: 25768}
     - Class: 114
-      Script: {instanceID: 25826}
+      Script: {instanceID: 25830}
     - Class: 114
-      Script: {instanceID: 26190}
+      Script: {instanceID: 26194}
     - Class: 114
-      Script: {instanceID: 26382}
+      Script: {instanceID: 26326}
     - Class: 114
-      Script: {instanceID: 26586}
+      Script: {instanceID: 26388}
     - Class: 114
-      Script: {instanceID: 26644}
+      Script: {instanceID: 26592}
     - Class: 114
-      Script: {instanceID: 27820}
+      Script: {instanceID: 26650}
     - Class: 114
-      Script: {instanceID: 27934}
+      Script: {instanceID: 27828}
     - Class: 114
-      Script: {instanceID: 28312}
+      Script: {instanceID: 27942}
     - Class: 114
-      Script: {instanceID: 28388}
+      Script: {instanceID: 28320}
     - Class: 114
-      Script: {instanceID: 28734}
+      Script: {instanceID: 28396}
     - Class: 114
-      Script: {instanceID: 29344}
+      Script: {instanceID: 28742}
     - Class: 114
-      Script: {instanceID: 29544}
+      Script: {instanceID: 29352}
     - Class: 114
-      Script: {instanceID: 29574}
+      Script: {instanceID: 29552}
     - Class: 114
-      Script: {instanceID: 30002}
+      Script: {instanceID: 29582}
+    - Class: 114
+      Script: {instanceID: 30010}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -698,7 +791,7 @@ ScriptsOnlyBuild:
     className: DragPanel
   - hash:
       serializedVersion: 2
-      Hash: fd6beb0ecf4594e2aacbee14501070e6
+      Hash: 37d46ee48077d7cedee897b90718bea9
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: UIManager
@@ -780,6 +873,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5f570d7d256575968097bb5b513ed032
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TextManager
   - hash:
       serializedVersion: 2
       Hash: 33656f83bb0079184b2206a69690ec46
@@ -894,6 +993,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: WarpTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: 7ebfdfb825eac8a823439dd906f60d73
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadingSceneController
   - hash:
       serializedVersion: 2
       Hash: 8bbce9932f67ad8e7f4eefec87800f94
@@ -1516,4 +1621,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Main.unity
   - Assets/Scenes/Play.unity
+  - Assets/Scenes/Load.unity
   playerPath: "D:/Github/game_engine_unity_final/\uC2E4\uD589\uD30C\uC77C/final_project.exe"

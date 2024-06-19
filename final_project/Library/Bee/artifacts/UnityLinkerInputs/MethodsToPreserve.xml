@@ -7,13 +7,21 @@
 			<method name="Exit"/>
 			<method name="Exit"/>
 			<method name="Play"/>
-			<method name="Play"/>
+			<method name="Restart"/>
+		</type>
+		<type fullname="TextManager">
+			<method name="ToggleController"/>
+			<method name="ToggleController"/>
+			<method name="ToggleController"/>
+			<method name="ToggleController"/>
 		</type>
 		<type fullname="UIManager">
 			<method name="ChangeKey"/>
 			<method name="ChangeKey"/>
 			<method name="ChangeKey"/>
 			<method name="ChangeKey"/>
+			<method name="keyToggleContorl"/>
+			<method name="keyToggleContorl"/>
 			<method name="mouseToggleControl"/>
 			<method name="mouseToggleControl"/>
 			<method name="sliderBGMControl"/>
